@@ -1,0 +1,124 @@
+/* 整个页面的基础样式 */
+body {
+  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  line-height: 1.7;
+  color: #333;
+  background-color: #faf7f4;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+/* 一级标题 */
+h1 {
+  color: #b04a5a;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* 段落 */
+p {
+  margin: 1rem 0;
+}
+
+/* 导航 */
+nav ul {
+  list-style: none;   /* 去掉列表前面的圆点 */
+  padding: 0;
+  margin: 0 0 2rem;
+  display: flex;      /* 让列表项排成一行 */
+  gap: 1.5rem;        /* 项之间的间距 */
+}
+
+nav a {
+  color: #b04a5a;
+  text-decoration: none;  /* 去掉链接的下划线 */
+}
+
+nav a:hover {
+  text-decoration: underline;  /* 鼠标悬停时显示下划线 */
+}
+
+/* 作品卡片 */
+.work-card {
+  border: 1px solid #e8e0dc;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.2s;
+}
+
+/* 卡片悬停时阴影加深 */
+.work-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.work-card h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1.25rem;
+}
+
+.original-title {
+  color: #999;
+  font-size: 0.9rem;
+  margin: 0 0 0.5rem;
+}
+
+.rating {
+  color: #b04a5a;
+  font-weight: bold;
+  margin: 0 0 0.5rem;
+}
+
+.short-review {
+  margin: 0 0 0.75rem;
+}
+
+/* 标签 */
+.tags {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;   /* 放不下时自动换行 */
+  gap: 0.5rem;
+}
+
+.tag {
+  background-color: #f3e8ea;
+  color: #b04a5a;
+  border-radius: 999px;  /* 很大的圆角 → 胶囊形 */
+  padding: 0.15rem 0.6rem;
+  font-size: 0.8rem;
+}
+
+/* 二级标题 */
+h2 {
+  color: #333;
+  font-size: 1.1rem;
+  margin: 1.5rem 0 0.5rem;
+}
+
+/* 卡片里的链接（作品标题） */
+.work-card a {
+  color: inherit;       /* 继承父元素颜色，去掉链接默认的蓝色 */
+  text-decoration: none;
+}
+
+.work-card a:hover {
+  text-decoration: underline;
+}
+
+/* 详情页的"分类" */
+.category {
+  color: #666;
+  margin: 0 0 0.5rem;
+}
+
+/* 返回链接 */
+.back-link {
+  color: #b04a5a;
+  text-decoration: none;
+}

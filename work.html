@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品详情 · yuri-archive</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="works.html">作品</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+    <!-- 详情内容由下面的 JS 生成并放进这个容器 -->
+    <div id="work-detail"></div>
+
+    <p><a class="back-link" href="works.html">← 返回作品列表</a></p>
+
+    <script>
+      // 1. 从 URL 读取要显示哪部作品
+      const slug = new URLSearchParams(location.search).get('slug');
+
+      fetch('data/works.json')
+        .then(res => res.json())
+        .then(works => {
+          // 2. 在数据里找到 slug 匹配的那部作品
+          const work = works.find(w => w.slug === slug);
+          const detail = document.getElementById('work-detail');
+
+          // 3. 找不到（比如直接访问 work.html 没带参数）
+          if (!work) {
+            detail.innerHTML = '<p>找不到这部作品。</p>';
+            return;
+          }
+
+          // 4. 顺便把浏览器标签页标题也改成作品名
+          document.title = work.title + ' · yuri-archive';
+
+          const tagsHtml = work.tags
+            .map(tag => `<li class="tag">${tag}</li>`)
+            .join('');
+
+          detail.innerHTML = `
+            <article class="work-detail">
+              <h1>${work.title}</h1>
+              <p class="original-title">${work.originalTitle} · ${work.year}</p>
+              <p class="rating">评分 ${work.rating}/10</p>
+              <p class="category">分类：${work.category}</p>
+              <ul class="tags">${tagsHtml}</ul>
+
+              <h2>短评</h2>
+              <p>${work.shortReview}</p>
+
+              <h2>长评</h2>
+              <p>${work.longReview}</p>
+            </article>
+          `;
+        });
+    </script>
+  </body>
+</html>

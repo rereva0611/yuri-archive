@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品 · yuri-archive</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="works.html">作品</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+    <h1>百合作品</h1>
+
+    <!-- 作品卡片由下面的 JS 生成并放进这个容器 -->
+    <div id="works-list"></div>
+
+    <script>
+      fetch('data/works.json')               // 1. 加载数据文件
+        .then(res => res.json())             // 2. 解析成 JS 对象（一个数组）
+        .then(works => {                     // 3. 拿到数组后开始处理
+          const list = document.getElementById('works-list');
+          for (const work of works) {
+            const tagsHtml = work.tags
+              .map(tag => `<li class="tag">${tag}</li>`)
+              .join('');
+            list.innerHTML += `
+              <article class="work-card">
+                <h2><a href="work.html?slug=${work.slug}">${work.title}</a></h2>
+                <p class="original-title">${work.originalTitle} · ${work.year}</p>
+                <p class="rating">评分 ${work.rating}/10</p>
+                <p class="category">分类：${work.category}</p>
+                <p class="short-review">${work.shortReview}</p>
+                <ul class="tags">${tagsHtml}</ul>
+              </article>
+            `;
+          }
+        });
+    </script>
+  </body>
+</html>

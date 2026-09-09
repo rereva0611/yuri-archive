@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "madoka-magica",
+    "title": "魔法少女小圆",
+    "originalTitle": "魔法少女まどか☆マギカ",
+    "year": 2011,
+    "rating": 9,
+    "tags": ["魔法少女", "悲剧", "百合"],
+    "category": "经典必看",
+    "shortReview": "颠覆魔法少女题材的经典，结局震撼。",
+    "longReview": "（长评占位，之后填。）"
+  },
+  {
+    "slug": "yagate-kimi-ni-naru",
+    "title": "终将成为你",
+    "originalTitle": "やがて君になる",
+    "year": 2018,
+    "rating": 9,
+    "tags": ["百合", "青春", "恋爱"],
+    "category": "百合标杆",
+    "shortReview": "关于自我认同与“喜欢”，百合题材的标杆。",
+    "longReview": "（长评占位，之后填。）"
+  },
+  {
+    "slug": "adachi-to-shimamura",
+    "title": "安达与岛村",
+    "originalTitle": "安達としまむら",
+    "year": 2020,
+    "rating": 8,
+    "tags": ["百合", "日常", "恋爱"],
+    "category": "日常治愈",
+    "shortReview": "细腻克制的日常，两位主角的关系慢慢升温。",
+    "longReview": "（长评占位，之后填。）"
+  },
+  {
+    "slug": "citrus",
+    "title": "柑橘味香气",
+    "originalTitle": "Citrus",
+    "year": 2012,
+    "rating": 7,
+    "tags": ["百合", "恋爱", "校园"],
+    "category": "校园恋爱",
+    "shortReview": "戏剧性较强，但角色塑造鲜明。",
+    "longReview": "（长评占位，之后填。）"
+  },
+  {
+    "slug": "citrus-plus",
+    "title": "柑橘味香气+",
+    "originalTitle": "Citrus Plus",
+    "year": 2018,
+    "rating": 8,
+    "tags": ["百合", "恋爱", "校园"],
+    "category": "校园恋爱",
+    "shortReview": "citrus的后日谈，剧情更加合理",
+    "longReview": "（长评占位，之后填。）"
+  }
+]
