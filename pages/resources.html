@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="ReReva" />
+    <meta name="description" content="about" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title id="webTitle">资源｜ReReva's yuri</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <h1 id="h1">ReReva's Yuri</h1>
+        <nav>
+          <ul>
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="archive.html">档案</a></li>
+            <li><a href="about.html">关于</a></li>
+            <li><a href="resources.html" aria-current="page">资源</a></li>
+          </ul>
+          <form id="navSearchForm" action="archive.html" method="get">
+            <input
+              type="search"
+              name="q"
+              placeholder="搜索作品…"
+              autocomplete="off"
+            />
+            <input type="submit" value="搜索" disabled />
+          </form>
+        </nav>
+      </div>
+    </header>
+    <main class="aboutLayout">
+      <aside>
+        <h2>资源索引</h2>
+        <ul>
+          <li><a href="#resource-0">百合</a></li>
+          <li><a href="#resource-1">漫画</a></li>
+          <li><a href="#resource-2">动画</a></li>
+          <li><a href="#resource-3">Galgame</a></li>
+          <li><a href="#resource-4">作品资料库</a></li>
+          <li><a href="#resource-5">电子书</a></li>
+        </ul>
+      </aside>
+      <article class="aboutContent"></article>
+    </main>
+    <footer>
+      <div class="footer-inner">
+        <p>ReReva保留所有权利</p>
+        <ul>
+          <li><a href="https://github.com/rereva0611">github</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
+    <script src="../search.js"></script>
+    <script>
+      async function fetchData() {
+        const response = await fetch("../data/resources.md");
+        const data = await response.text();
+
+        const html = marked.parse(data);
+        const aboutContent = document.querySelector(".aboutContent");
+        aboutContent.innerHTML = html;
+
+        let index = 0;
+
+        for (const heading of aboutContent.querySelectorAll("h2")) {
+          heading.id = "resource-" + index;
+          index += 1;
+        }
+      }
+
+      fetchData();
+
+      // 页眉吸顶
+      const header = document.querySelector("header");
+
+      function updateHeader() {
+        header.classList.toggle("isStuck", window.scrollY >= 16);
+      }
+
+      window.addEventListener("scroll", updateHeader);
+      updateHeader();
+
+    </script>
+  </body>
+</html>

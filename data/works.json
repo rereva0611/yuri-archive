@@ -1,0 +1,5554 @@
+[
+  {
+    "id": "001",
+    "category": "manga",
+    "titles": {
+      "zhCN": "安达与岛村",
+      "zhTW": "安達與島村",
+      "ja": "安達としまむら",
+      "en": "Adachi and Shimamura"
+    },
+    "authors": [
+      {
+        "name": "入間人間",
+        "roles": "author"
+      },
+      {
+        "name": "柚原もけ",
+        "roles": "artist"
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2019,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 283417
+      },
+      "anilist": {
+        "id": 109302
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 5,
+      "affection": 5,
+      "review": "细腻真实的情感刻画，把陪伴写成细水长流的爱。"
+    }
+  },
+  {
+    "id": "002",
+    "category": "manga",
+    "titles": {
+      "zhCN": "兽耳少女与主人",
+      "zhTW": "主人與獸耳少女梅露",
+      "ja": "ご主人様と獣耳の少女メル",
+      "en": "Furry-Eared Girl Mel and Her Master"
+    },
+    "authors": [
+      {
+        "name": "伊藤ハチ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2016,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 198207
+      },
+      "anilist": {
+        "id": 99086
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 3,
+      "affection": 3,
+      "review": null
+    }
+  },
+  {
+    "id": "003",
+    "category": "manga",
+    "titles": {
+      "zhCN": "帅气女孩与千金小姐",
+      "zhTW": "男裝女孩與嬌嬌女",
+      "ja": "イケメン女と箱入り娘",
+      "en": "Handsome Girl and Sheltered Girl"
+    },
+    "authors": [
+      {
+        "name": "もちオーレ",
+        "roles": "author"
+      },
+      {
+        "name": "majoccoid",
+        "roles": "artist"
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2019,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 289876
+      },
+      "anilist": {
+        "id": 111168
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 2,
+      "affection": 2,
+      "review": null
+    }
+  },
+  {
+    "id": "004",
+    "category": "manga",
+    "titles": {
+      "zhCN": "为行进小狗献上情书",
+      "zhTW": "為行進小狗獻上情書",
+      "ja": "行進子犬に恋文を",
+      "en": "A Love Letter for the Marching Puppy"
+    },
+    "authors": [
+      {
+        "name": "玉崎たま",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2018,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 239665
+      },
+      "anilist": {
+        "id": 104151
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 2,
+      "affection": 2,
+      "review": null
+    }
+  },
+  {
+    "id": "005",
+    "category": "manga",
+    "titles": {
+      "zhCN": "奈奈和瞳",
+      "zhTW": "奈奈和瞳",
+      "ja": "瞳と奈々",
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "森永みるく",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2012,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 2,
+      "affection": 2,
+      "review": "一部非常古早且浪漫和剧情充满跳跃性的作品。"
+    }
+  },
+  {
+    "id": "006",
+    "category": "manga",
+    "titles": {
+      "zhCN": "除我以外人类全员百合",
+      "zhTW": "除我以外人類全員百合",
+      "ja": "私以外人類全員百合",
+      "en": "The Whole of Humanity Has Gone Yuri Except for Me"
+    },
+    "authors": [
+      {
+        "name": "晴瀬ひろき",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2018,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 270196
+      },
+      "anilist": {
+        "id": 105949
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 2,
+      "affection": 3,
+      "review": "最想穿越的世界之一。"
+    }
+  },
+  {
+    "id": "007",
+    "category": "manga",
+    "titles": {
+      "zhCN": "小百合小姐的妹妹是天使",
+      "zhTW": "小百合的妹妹是天使",
+      "ja": "小百合さんの妹は天使",
+      "en": "Sayuri's Little Sister is an Angel"
+    },
+    "authors": [
+      {
+        "name": "伊藤ハチ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2014,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 127475
+      },
+      "anilist": {
+        "id": 87074
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 3,
+      "affection": 3,
+      "review": null
+    }
+  },
+  {
+    "id": "008",
+    "category": "manga",
+    "titles": {
+      "zhCN": "我喜欢的女生不知为何只对我冷言冷语",
+      "zhTW": "我喜歡的女生不知為何只對我冷言冷語",
+      "ja": "好きな女の子が私にだけなぜか厳しい",
+      "en": "Why is My Crush so Hard on Me?"
+    },
+    "authors": [
+      {
+        "name": "はちこ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2022,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 411607
+      },
+      "anilist": {
+        "id": 159229
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 2,
+      "affection": 2,
+      "review": null
+    }
+  },
+  {
+    "id": "009",
+    "category": "manga",
+    "titles": {
+      "zhCN": "被百合留学生强迫的恋爱喜剧",
+      "zhTW": "被百合留學生強迫的戀愛喜劇",
+      "ja": "百合好きの留学生にラブコメを迫られています！ ～ヤンデレ幼馴染との修羅場にも発展!?～",
+      "en": "I’m Being Pressured Into a Romantic Comedy by a Yuri-Loving Foreign Exchange Student! ~Will It Escalate Into a Love Battlefield With My Yandere Childhood Friend!?~"
+    },
+    "authors": [
+      {
+        "name": "上村なびあ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2023,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 2,
+      "affection": 2,
+      "review": null
+    }
+  },
+  {
+    "id": "010",
+    "category": "manga",
+    "titles": {
+      "zhCN": "要逃课的话，保健室里欢迎你？",
+      "zhTW": "要逃課的話，保健室里歡迎你？",
+      "ja": "サボリなら保健室でどうぞ？",
+      "en": "Wanna Skip School in the Infirmary?"
+    },
+    "authors": [
+      {
+        "name": "あおと響",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2024,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 481056
+      },
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 2,
+      "affection": 2,
+      "review": null
+    }
+  },
+  {
+    "id": "011",
+    "category": "manga",
+    "titles": {
+      "zhCN": "天狼双星（Sirius:Twin Stars）",
+      "zhTW": "天狼雙星（Sirius:Twin Stars）",
+      "ja": null,
+      "en": "Sirius: Twin Stars"
+    },
+    "authors": [
+      {
+        "name": "Ana c.sanchez",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2022,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 429261
+      },
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 4,
+      "affection": 4,
+      "review": null
+    }
+  },
+  {
+    "id": "012",
+    "category": "manga",
+    "titles": {
+      "zhCN": "败给了性格恶劣的天才青梅，初体验全部被夺走这件事",
+      "zhTW": "敗給性格惡劣的天才兒時玩伴，初體驗全部被她奪走了",
+      "ja": "性悪天才幼馴染との勝負に負けて初体験を全部奪われる話",
+      "en": "How I Lose Bets With My Sadistic Gifted Childhood Friend and She Steals All of My Firsts"
+    },
+    "authors": [
+      {
+        "name": "コナタエル",
+        "roles": "artist"
+      },
+      {
+        "name": "犬甘あんず",
+        "roles": "author"
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2024,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 468320
+      },
+      "anilist": {
+        "id": 175129
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 2,
+      "affection": 3,
+      "review": null
+    }
+  },
+  {
+    "id": "013",
+    "category": "manga",
+    "titles": {
+      "zhCN": "憧憬的女仆与烟草相称",
+      "zhTW": "我憧憬的女僕很適合抽菸",
+      "ja": "憧れのメイドさんはタバコが似合う",
+      "en": "The Maid of Your Dreams Looks Good with a Cigarette"
+    },
+    "authors": [
+      {
+        "name": "嶋水えけ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2024,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 496040
+      },
+      "anilist": {
+        "id": 187980
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 2,
+      "affection": 3,
+      "review": null
+    }
+  },
+  {
+    "id": "014",
+    "category": "manga",
+    "titles": {
+      "zhCN": "时光碎片",
+      "zhTW": "時光沙漏fragtime",
+      "ja": "フラグタイム",
+      "en": "Fragtime"
+    },
+    "authors": [
+      {
+        "name": "さと",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2013,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 84003
+      },
+      "anilist": {
+        "id": 85402
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 3,
+      "affection": 3,
+      "review": null
+    }
+  },
+  {
+    "id": "015",
+    "category": "manga",
+    "titles": {
+      "zhCN": "飞野同学是笨蛋",
+      "zhTW": "飛野同學是笨蛋",
+      "ja": "飛野さんのバカ",
+      "en": "Hino-san is a Dummy"
+    },
+    "authors": [
+      {
+        "name": "筋肉☆太郎",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2017,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 230961
+      },
+      "anilist": {
+        "id": 108069
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 3,
+      "affection": 4,
+      "review": null
+    }
+  },
+  {
+    "id": "016",
+    "category": "manga",
+    "titles": {
+      "zhCN": "和机器人啪啪啪能算在经验次数里吗？",
+      "zhTW": "機器人能算入經驗人數嗎？？",
+      "ja": "アンドロイドは経験人数に入りますか？？",
+      "en": "Does it Count if You Lose Your Virginity to an Android?"
+    },
+    "authors": [
+      {
+        "name": "焼肉定食",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2021,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": 2
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": {
+        "id": 136508
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 3,
+      "affection": 3,
+      "review": "明明是一部H作品，却围绕机器人与人的关系有较深的探索。"
+    }
+  },
+  {
+    "id": "017",
+    "category": "manga",
+    "titles": {
+      "zhCN": "亚澄与胡蝶",
+      "zhTW": "亞澄與胡蝶",
+      "ja": "亜澄ちゃんと胡蝶ちゃん",
+      "en": "Azumi-chan and Kochou-chan"
+    },
+    "authors": [
+      {
+        "name": "あまね",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2024,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 638694
+      },
+      "anilist": {
+        "id": 212752
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 2,
+      "affection": 2,
+      "review": null
+    }
+  },
+  {
+    "id": "018",
+    "category": "manga",
+    "titles": {
+      "zhCN": "与你编缀的泡沫",
+      "zhTW": "共譜泡沫戀曲",
+      "ja": "君と綴るうたかた",
+      "en": "The Summer You Were There"
+    },
+    "authors": [
+      {
+        "name": "ゆあま",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2020,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 306906
+      },
+      "anilist": {
+        "id": 117620
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 4,
+      "affection": 5,
+      "review": "哪怕你知道故事的结局，也依然会被这个故事感动。"
+    }
+  },
+  {
+    "id": "019",
+    "category": "manga",
+    "titles": {
+      "zhCN": "污秽不堪的你最可爱了",
+      "zhTW": "汙穢不堪的妳最惹人憐愛",
+      "ja": "きたない君がいちばんかわいい",
+      "en": "The Filthy You is the Cutest"
+    },
+    "authors": [
+      {
+        "name": "まにお",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2019,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": 1
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 285054
+      },
+      "anilist": {
+        "id": 110396
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 4,
+      "affection": 5,
+      "review": null
+    }
+  },
+  {
+    "id": "020",
+    "category": "manga",
+    "titles": {
+      "zhCN": "无法拒绝孤独的她",
+      "zhTW": "無法拒絕孤單女孩",
+      "ja": "ロンリーガールに逆らえない",
+      "en": "I Can't Say No to the Lonely Girl"
+    },
+    "authors": [
+      {
+        "name": "樫風",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2019,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 292901
+      },
+      "anilist": {
+        "id": 112621
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 3,
+      "affection": 3,
+      "review": null
+    }
+  },
+  {
+    "id": "021",
+    "category": "manga",
+    "titles": {
+      "zhCN": "恬淡晴天",
+      "zhTW": "平凡日常",
+      "ja": "徒然日和",
+      "en": "Our Wonderful Days"
+    },
+    "authors": [
+      {
+        "name": "土室圭",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2017,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 239664
+      },
+      "anilist": {
+        "id": 103081
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 5,
+      "affection": 5,
+      "review": "四位乡下女高中生的悠闲日常，近乎完美的分镜和氛围塑造\n\n“虽然没有什么特别的事情发生，但这样的日子一定是特别的。”"
+    }
+  },
+  {
+    "id": "022",
+    "category": "manga",
+    "titles": {
+      "zhCN": "怎样才能成为发小的女友呢！？",
+      "zhTW": "要怎麼做才能成為童年玩伴♀的女友!?",
+      "ja": "どうしたら幼馴染の彼女になれますか！？",
+      "en": "How Do I Turn My Best Friend Into My Girlfriend?"
+    },
+    "authors": [
+      {
+        "name": "矢坂しゅう",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2022,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 376352
+      },
+      "anilist": {
+        "id": 148311
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 2,
+      "affection": 3,
+      "review": null
+    }
+  },
+  {
+    "id": "023",
+    "category": "manga",
+    "titles": {
+      "zhCN": "向笨蛋告白",
+      "zhTW": "向笨蛋告白",
+      "ja": "バカに告白",
+      "en": "Confessions for a Moron"
+    },
+    "authors": [
+      {
+        "name": "矢坂しゅう",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2025,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 561973
+      },
+      "anilist": {
+        "id": 193357
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 2,
+      "affection": 2,
+      "review": null
+    }
+  },
+  {
+    "id": "024",
+    "category": "manga",
+    "titles": {
+      "zhCN": "若爱在眼前",
+      "zhTW": "如果愛「看」得見？",
+      "ja": "もし、恋が見えたなら",
+      "en": "If You Could See Love"
+    },
+    "authors": [
+      {
+        "name": "七路ゆうき",
+        "roles": "artist"
+      },
+      {
+        "name": "みかみてれん",
+        "roles": "author"
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2020,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 308152
+      },
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 2,
+      "affection": 3,
+      "review": "用粉色箭头来表示爱意的设定非常有意思，在这么多黑白漫中让人眼前一亮。可惜故事展开的不够充分。"
+    }
+  },
+  {
+    "id": "025",
+    "category": "manga",
+    "titles": {
+      "zhCN": "梦想和恋爱划算不来",
+      "zhTW": "夢與戀情難以平衡",
+      "ja": "夢と恋ではつり合わない",
+      "en": "Love and Dreams Don't Mix"
+    },
+    "authors": [
+      {
+        "name": "とりいしづく",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2024,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 524654
+      },
+      "anilist": {
+        "id": 184565
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 3,
+      "affection": 4,
+      "review": null
+    }
+  },
+  {
+    "id": "026",
+    "category": "manga",
+    "titles": {
+      "zhCN": "终将成为你",
+      "zhTW": "終將成為妳",
+      "ja": "やがて君になる",
+      "en": "Bloom Into You"
+    },
+    "authors": [
+      {
+        "name": "仲谷鳰(仲谷)",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2015,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 132936
+      },
+      "anilist": {
+        "id": 86218
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 5,
+      "affection": 5,
+      "review": "一个不懂爱的少女，遇上另一个不敢被爱的少女。"
+    }
+  },
+  {
+    "id": "027",
+    "category": "manga",
+    "titles": {
+      "zhCN": "披着狼皮的羊公主",
+      "zhTW": "披著狼皮的羊公主",
+      "ja": "狼の皮をかぶった羊姫",
+      "en": "Sheep Princess in Wolf's Clothing"
+    },
+    "authors": [
+      {
+        "name": "ミト",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2020,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 316647
+      },
+      "anilist": {
+        "id": 124885
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 2,
+      "affection": 3,
+      "review": null
+    }
+  },
+  {
+    "id": "028",
+    "category": "manga",
+    "titles": {
+      "zhCN": "吸血鬼学姐×后辈",
+      "zhTW": "吸血鬼學姊×可愛學妹",
+      "ja": "吸血鬼ちゃん×後輩ちゃん",
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "嵩乃朔",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2017,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 210720
+      },
+      "anilist": {
+        "id": 98806
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 3,
+      "affection": 3,
+      "review": null
+    }
+  },
+  {
+    "id": "029",
+    "category": "manga",
+    "titles": {
+      "zhCN": "今天也攻略了女孩子",
+      "zhTW": "女孩攻略日常",
+      "ja": "今日も女の子を攻略した。",
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "むく",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2016,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 191321
+      },
+      "anilist": {
+        "id": 99852
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 2,
+      "affection": 4,
+      "review": "我的日常罢了。"
+    }
+  },
+  {
+    "id": "030",
+    "category": "manga",
+    "titles": {
+      "zhCN": "永别了蔷薇花园",
+      "zhTW": "永別了，薔薇花園",
+      "ja": "さよならローズガーデン",
+      "en": "Goodbye, My Rose Garden"
+    },
+    "authors": [
+      {
+        "name": "毒田ペパ子",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2018,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 253264
+      },
+      "anilist": {
+        "id": 111970
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 4,
+      "affection": 4,
+      "review": "相当好的作品，对人物的心理描写尤其细腻，"
+    }
+  },
+  {
+    "id": "031",
+    "category": "manga",
+    "titles": {
+      "zhCN": "天涯彼岸的朋友",
+      "zhTW": "天涯彼岸的朋友",
+      "ja": "最果てのともだち",
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "雪宮ありさ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2021,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "light",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 331407
+      },
+      "anilist": {
+        "id": 159995
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 2,
+      "affection": 3,
+      "review": null
+    }
+  },
+  {
+    "id": "032",
+    "category": "manga",
+    "titles": {
+      "zhCN": "想被那个害羞的孩子亲近",
+      "zhTW": "願那含羞的女孩眷戀於我",
+      "ja": "シャイなあの子に懐かれたい",
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "千葉らき",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2024,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 472387
+      },
+      "anilist": {
+        "id": 174361
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 2,
+      "affection": 2,
+      "review": null
+    }
+  },
+  {
+    "id": "033",
+    "category": "manga",
+    "titles": {
+      "zhCN": "发小的裙底随喵叫毕露",
+      "zhTW": "發小的裙底隨喵叫畢露",
+      "ja": "幼馴染は、にゃあと鳴いてスカートのなか",
+      "en": "My Childhood Friend Meows Under the Skirt"
+    },
+    "authors": [
+      {
+        "name": "七橋楽",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2024,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 516528
+      },
+      "anilist": {
+        "id": 183482
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 3,
+      "affection": 3,
+      "review": null
+    }
+  },
+  {
+    "id": "034",
+    "category": "manga",
+    "titles": {
+      "zhCN": "万人厌的魔女大小姐与男装皇子的婚约",
+      "zhTW": "萬人厭的魔女大小姐與男裝皇子的婚約",
+      "ja": "嫌われ魔女令嬢と男装皇子の婚約",
+      "en": "The Engagement of the Disgraced Witch and the Cross-Dressing Princess"
+    },
+    "authors": [
+      {
+        "name": "散葉ちんみ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2023,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 430690
+      },
+      "anilist": {
+        "id": 165204
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 2,
+      "affection": 2,
+      "review": null
+    }
+  },
+  {
+    "id": "035",
+    "category": "manga",
+    "titles": {
+      "zhCN": "欺妻复妻欺",
+      "zhTW": "欺妻復妻欺",
+      "ja": "イジめてイジられて",
+      "en": "Bullying and Being Bullied"
+    },
+    "authors": [
+      {
+        "name": "千田大輔",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2026,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 2
+    },
+    "community": {
+      "bangumi": {
+        "id": 662426
+      },
+      "anilist": {
+        "id": 215087
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 2,
+      "affection": 3,
+      "review": null
+    }
+  },
+  {
+    "id": "036",
+    "category": "manga",
+    "titles": {
+      "zhCN": "雨夜之月",
+      "zhTW": "雨夜之月",
+      "ja": "雨夜の月",
+      "en": "The Moon on a Rainy Night"
+    },
+    "authors": [
+      {
+        "name": "くずしろ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2021,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 338969
+      },
+      "anilist": {
+        "id": 136109
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 5,
+      "affection": 5,
+      "review": null
+    }
+  },
+  {
+    "id": "037",
+    "category": "manga",
+    "titles": {
+      "zhCN": "前敌方干部小姐对魔法少女神魂颠倒",
+      "zhTW": "魔法少女與前邪惡女幹部",
+      "ja": null,
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "らる・ぶらん",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2026,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 2
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 2,
+      "affection": 2,
+      "review": null
+    }
+  },
+  {
+    "id": "038",
+    "category": "manga",
+    "titles": {
+      "zhCN": "人妻教师与班上女高中生陷入爱恋",
+      "zhTW": "人妻教師與班上女高中生陷入愛戀",
+      "ja": "人妻教師が教え子の女子高生にドはまりする話",
+      "en": "A Story About a Married Teacher Who Becomes Obsessed with Her Female Student"
+    },
+    "authors": [
+      {
+        "name": "川上しをん",
+        "roles": null
+      },
+      {
+        "name": "入間人間",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2025,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 530127
+      },
+      "anilist": {
+        "id": 196670
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 2,
+      "affection": 3,
+      "review": null
+    }
+  },
+  {
+    "id": "039",
+    "category": "manga",
+    "titles": {
+      "zhCN": "一和二分之一",
+      "zhTW": "一和二分之一",
+      "ja": "1×1/2 -イチトニブンノイチ-",
+      "en": "1 x 1/2 - My Half of You"
+    },
+    "authors": [
+      {
+        "name": "たいやき",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2015,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": {
+        "id": 208605
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 3,
+      "affection": 3,
+      "review": null
+    }
+  },
+  {
+    "id": "040",
+    "category": "manga",
+    "titles": {
+      "zhCN": "不选幼驯染的家伙都是OO!",
+      "zhTW": "不選幼馴染的傢伙都是OO!",
+      "ja": null,
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "ねこすきっぷ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": null,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 2,
+      "affection": 2,
+      "review": null
+    }
+  },
+  {
+    "id": "041",
+    "category": "manga",
+    "titles": {
+      "zhCN": "从在梦里被拒绝开始的百合",
+      "zhTW": "夢中被甩之後展開的百合戀情",
+      "ja": "夢でフラれてはじまる百合",
+      "en": "A Yuri Love Story That Begins with Getting Dumped in a Dream"
+    },
+    "authors": [
+      {
+        "name": "ヒジキ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2022,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 372591
+      },
+      "anilist": {
+        "id": 137623
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 2,
+      "affection": 2,
+      "review": null
+    }
+  },
+  {
+    "id": "042",
+    "category": "manga",
+    "titles": {
+      "zhCN": "有谁知道该怎么管教这只大狼吗！？",
+      "zhTW": "有誰知道該怎麼管教這隻大狼嗎！？",
+      "ja": "誰かオオカミさんのしつけ方知りませんか!?",
+      "en": "Does Anyone Know How to Train a Wolf!?"
+    },
+    "authors": [
+      {
+        "name": "餡実ツキ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2026,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 616302
+      },
+      "anilist": {
+        "id": 204563
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 2,
+      "affection": 2,
+      "review": null
+    }
+  },
+  {
+    "id": "043",
+    "category": "manga",
+    "titles": {
+      "zhCN": "茉梦之歌",
+      "zhTW": "茉夢之歌",
+      "ja": "マユノウタ",
+      "en": "Mayu's Song"
+    },
+    "authors": [
+      {
+        "name": "シクシク",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2025,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 565783
+      },
+      "anilist": {
+        "id": 196149
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 2,
+      "affection": 3,
+      "review": null
+    }
+  },
+  {
+    "id": "044",
+    "category": "manga",
+    "titles": {
+      "zhCN": "天使百合",
+      "zhTW": "天使百合",
+      "ja": null,
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "世界(ＢＬ)しのぎあさ(百合)",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": null,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "045",
+    "category": "manga",
+    "titles": {
+      "zhCN": "毁掉一切地狱再爱",
+      "zhTW": "破壞殆盡後在地獄相愛",
+      "ja": "ぜんぶ壊して地獄で愛して",
+      "en": "If that’s Love, break it."
+    },
+    "authors": [
+      {
+        "name": "くわばらたもつ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2023,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 420817
+      },
+      "anilist": {
+        "id": 161477
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 2,
+      "affection": 1,
+      "review": null
+    }
+  },
+  {
+    "id": "046",
+    "category": "manga",
+    "titles": {
+      "zhCN": "一周一次买下同班同学的那些事～二人的时间、借口的五千元～",
+      "zhTW": "我買下了與她的每週密會 ～以五千圓為藉口，共度兩人時光～",
+      "ja": "週に一度クラスメイトを買う話 ～ふたりの時間、言い訳の五千円～",
+      "en": "A Story About Buying a Classmate Once a Week: 5,000 Yen for an Excuse to Spend Time Together"
+    },
+    "authors": [
+      {
+        "name": "羽田宇佐",
+        "roles": null
+      },
+      {
+        "name": "右腹",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2023,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 440080
+      },
+      "anilist": {
+        "id": 177399
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 3,
+      "affection": 4,
+      "review": null
+    }
+  },
+  {
+    "id": "047",
+    "category": "manga",
+    "titles": {
+      "zhCN": "彼时蓝星",
+      "zhTW": "彼時藍星",
+      "ja": "あの頃の青い星",
+      "en": "The Blue Star on That Day"
+    },
+    "authors": [
+      {
+        "name": "蟹",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2019,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": {
+        "id": 127894
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 5,
+      "affection": 5,
+      "review": null
+    }
+  },
+  {
+    "id": "048",
+    "category": "manga",
+    "titles": {
+      "zhCN": "将放言说不会输的高颜值女孩，全力征服的百合故事",
+      "zhTW": "澈底馴服嘴硬不服輸美少女的百合情節",
+      "ja": "負けませんからと言い張る顔のいい女の子を、全力で屈服させる百合のお話",
+      "en": "A Yuri Story About Breaking a Pretty Girl Who Keeps Insisting \"I Won't Lose\" into Submission"
+    },
+    "authors": [
+      {
+        "name": "仓崎もろこ",
+        "roles": null
+      },
+      {
+        "name": "みかみてれん",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2025,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": 2
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 563791
+      },
+      "anilist": {
+        "id": 194118
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "049",
+    "category": "manga",
+    "titles": {
+      "zhCN": "与你相恋到生命尽头",
+      "zhTW": "與妳相戀到生命盡頭",
+      "ja": "きみが死ぬまで恋をしたい",
+      "en": "My Wish Is to Fall in Love Until You Die"
+    },
+    "authors": [
+      {
+        "name": "あおのなち",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2018,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 254437
+      },
+      "anilist": {
+        "id": 104045
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 4,
+      "affection": 5,
+      "review": null
+    }
+  },
+  {
+    "id": "050",
+    "category": "manga",
+    "titles": {
+      "zhCN": "只有颜值是优点的同学 以猛烈攻势向我扑来的百合故事",
+      "zhTW": "唯有美貌吸引人的同班同學，積極與我發展百合之戀。",
+      "ja": "顔だけ良いクラスメイトが、やたらとグイグイ来る百合の話。",
+      "en": "A Yuri Story About How My Classmate Whose Only Good Trait is Her Excessively Pretty Face Comes at Me Relentlessly"
+    },
+    "authors": [
+      {
+        "name": "はちこ",
+        "roles": null
+      },
+      {
+        "name": "能代リョウ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2024,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 521514
+      },
+      "anilist": {
+        "id": 183605
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 2,
+      "affection": 2,
+      "review": null
+    }
+  },
+  {
+    "id": "051",
+    "category": "manga",
+    "titles": {
+      "zhCN": "关于女儿带了女朋友回来这档事",
+      "zhTW": "關於女兒帶了女朋友回來這檔事",
+      "ja": "娘が彼女を連れてきた話",
+      "en": "My Lovely Daughter and Her Girlfriend are Such a Cute Couple"
+    },
+    "authors": [
+      {
+        "name": "栗崎きんぐ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2025,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 593977
+      },
+      "anilist": {
+        "id": 212278
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 2,
+      "affection": 3,
+      "review": "谁把我中年日常放出来了？"
+    }
+  },
+  {
+    "id": "052",
+    "category": "manga",
+    "titles": {
+      "zhCN": "我们两个，是在交往的吧！？",
+      "zhTW": "我們兩個，是在交往的吧！？",
+      "ja": "あたし達って付き合ってるよね！？",
+      "en": "We Are Dating, Right!?"
+    },
+    "authors": [
+      {
+        "name": "凉风そら",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2026,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 655403
+      },
+      "anilist": {
+        "id": 212646
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 2,
+      "affection": 2,
+      "review": null
+    }
+  },
+  {
+    "id": "053",
+    "category": "manga",
+    "titles": {
+      "zhCN": "被讨厌的女生告白了",
+      "zhTW": "被討厭的女生告白了",
+      "ja": null,
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "鯛田ねぼけ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": null,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 2
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 2,
+      "affection": 2,
+      "review": null
+    }
+  },
+  {
+    "id": "054",
+    "category": "manga",
+    "titles": {
+      "zhCN": "看起来不像是会抽烟的后辈",
+      "zhTW": "看起來不像是會抽煙的後輩",
+      "ja": "タバコとか吸わなそうな後輩",
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "稲葉白",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2026,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 2
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": {
+        "id": 211077
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 2,
+      "affection": 2,
+      "review": null
+    }
+  },
+  {
+    "id": "055",
+    "category": "manga",
+    "titles": {
+      "zhCN": "友女亦女友",
+      "zhTW": "友女亦女友",
+      "ja": "フレンドガールフレンド",
+      "en": "Friend Girlfriend"
+    },
+    "authors": [
+      {
+        "name": "瑠夏子",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2026,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 619931
+      },
+      "anilist": {
+        "id": 205515
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 2,
+      "affection": 2,
+      "review": null
+    }
+  },
+  {
+    "id": "056",
+    "category": "manga",
+    "titles": {
+      "zhCN": "直到你如一等星般闪耀",
+      "zhTW": "直到你如一等星般閃耀",
+      "ja": "君が一等星に光るまで",
+      "en": "Until You Shine Like the Brightest Star"
+    },
+    "authors": [
+      {
+        "name": "なうち",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2025,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 617315
+      },
+      "anilist": {
+        "id": 205570
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 2,
+      "affection": 1,
+      "review": null
+    }
+  },
+  {
+    "id": "057",
+    "category": "manga",
+    "titles": {
+      "zhCN": "透过百合SM能否连结两人的身心呢？",
+      "zhTW": "透過百合SM能否連結兩人的身心呢？",
+      "ja": "百合SMでふたりの気持ちはつながりますか？",
+      "en": "Are Your Feelings Connected by Yuri SM?"
+    },
+    "authors": [
+      {
+        "name": "みら",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2020,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 302601
+      },
+      "anilist": {
+        "id": 119481
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 3,
+      "affection": 4,
+      "review": null
+    }
+  },
+  {
+    "id": "058",
+    "category": "manga",
+    "titles": {
+      "zhCN": "樱Trick",
+      "zhTW": "櫻Trick",
+      "ja": "桜Trick",
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "タチ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2011,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 77058
+      },
+      "anilist": {
+        "id": 82257
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": "All I can say is: kissing."
+    }
+  },
+  {
+    "id": "059",
+    "category": "manga",
+    "titles": {
+      "zhCN": "无法白“嫖”",
+      "zhTW": "我不會免費跟妳上床",
+      "ja": "タダでは抱かれません",
+      "en": "Tada de wa Dakaremasen"
+    },
+    "authors": [
+      {
+        "name": "桧原フキ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2022,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": 2
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": {
+        "id": 152703
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "060",
+    "category": "manga",
+    "titles": {
+      "zhCN": "温热的银莲花",
+      "zhTW": "溫熱的銀蓮花",
+      "ja": "アネモネは熱を帯びる",
+      "en": "The Anemone Feels the Heat"
+    },
+    "authors": [
+      {
+        "name": "桜木蓮",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2020,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 320495
+      },
+      "anilist": {
+        "id": 126722
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "061",
+    "category": "manga",
+    "titles": {
+      "zhCN": "好事多磨",
+      "zhTW": "好事多磨",
+      "ja": "はなにあらし",
+      "en": "Rainbows After Storms"
+    },
+    "authors": [
+      {
+        "name": "古钵るか",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2017,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 230710
+      },
+      "anilist": {
+        "id": 100801
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "062",
+    "category": "manga",
+    "titles": {
+      "zhCN": "霓裳于舞室起舞",
+      "zhTW": "與妳翩翩共舞",
+      "ja": "踊り場にスカートが鳴る",
+      "en": "The Skirt Sings at the Landing"
+    },
+    "authors": [
+      {
+        "name": "うたたね游",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2020,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 313379
+      },
+      "anilist": {
+        "id": 122993
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "063",
+    "category": "manga",
+    "titles": {
+      "zhCN": "猫娘症候群",
+      "zhTW": "貓娘癥候群",
+      "ja": "かとるすしんどろーむ",
+      "en": "Catulus Syndrome"
+    },
+    "authors": [
+      {
+        "name": "ネコ太郎",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2016,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 214216
+      },
+      "anilist": {
+        "id": 99023
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "064",
+    "category": "manga",
+    "titles": {
+      "zhCN": "砂糖幸福生活",
+      "zhTW": "Happy Sugar Life～幸福甜蜜生活～",
+      "ja": "ハッピーシュガーライフ",
+      "en": "Happy Sugar Life"
+    },
+    "authors": [
+      {
+        "name": "鍵空とみやき",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2015,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 146458
+      },
+      "anilist": {
+        "id": 86655
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 3,
+      "affection": 4,
+      "review": null
+    }
+  },
+  {
+    "id": "065",
+    "category": "manga",
+    "titles": {
+      "zhCN": "你我的双人间",
+      "zhTW": "雙人部屋",
+      "ja": "ふたりべや",
+      "en": "Futaribeya: A Room for Two"
+    },
+    "authors": [
+      {
+        "name": "雪子",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2014,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 144523
+      },
+      "anilist": {
+        "id": 86244
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "066",
+    "category": "manga",
+    "titles": {
+      "zhCN": "即使只有一次也会后悔",
+      "zhTW": "即使只有一次，都讓人後悔。",
+      "ja": "一度だけでも、後悔してます。",
+      "en": "I Can't Believe I Slept With You!"
+    },
+    "authors": [
+      {
+        "name": "宫原都",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2019,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 285472
+      },
+      "anilist": {
+        "id": 110530
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "067",
+    "category": "manga",
+    "titles": {
+      "zhCN": "YURI LOVE SLAVE～放学后的二人世界",
+      "zhTW": "YURI LOVE SLAVE～放學後的二人世界",
+      "ja": "百合ラブスレイブ ふたりだけの放課後",
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "鈴音れな",
+        "roles": null
+      },
+      {
+        "name": "あらおし悠",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2020,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": 2
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": {
+        "id": 132041
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 2,
+      "affection": 3,
+      "review": null
+    }
+  },
+  {
+    "id": "068",
+    "category": "manga",
+    "titles": {
+      "zhCN": "清田同学想被玷污!?",
+      "zhTW": "清田同學想被玷汙?",
+      "ja": "清田さんは汚されたい！？",
+      "en": "Kiyota-san Wants to Be Defiled!?"
+    },
+    "authors": [
+      {
+        "name": "おーうち",
+        "roles": null
+      },
+      {
+        "name": "古田朋大",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2023,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 459461
+      },
+      "anilist": {
+        "id": 170101
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "069",
+    "category": "manga",
+    "titles": {
+      "zhCN": "我的吸血鬼王子",
+      "zhTW": "我的吸血鬼王子",
+      "ja": "ヴァンピアーズ",
+      "en": "Vampeerz"
+    },
+    "authors": [
+      {
+        "name": "アキリ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2019,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": 1
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 275264
+      },
+      "anilist": {
+        "id": 108440
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 4,
+      "affection": 4,
+      "review": "从长生的吸血鬼求死出发「」。很多地方非常有趣，但部分分镜充满了作者的恶趣味。"
+    }
+  },
+  {
+    "id": "070",
+    "category": "manga",
+    "titles": {
+      "zhCN": "想要宠爱铠塚小姐",
+      "zhTW": "想要寵愛鎧塚小姐",
+      "ja": "鎧塚さんをバブらせたい",
+      "en": "I Wanna Spoil Yoroizuka-san!"
+    },
+    "authors": [
+      {
+        "name": "あおと響",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2018,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 341136
+      },
+      "anilist": {
+        "id": 137045
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "071",
+    "category": "manga",
+    "titles": {
+      "zhCN": "减法累述",
+      "zhTW": "減法累述",
+      "ja": "ひきざんトートロジー",
+      "en": "Subtraction Tautology"
+    },
+    "authors": [
+      {
+        "name": "柾塚ちい",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2018,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 293389
+      },
+      "anilist": null
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "072",
+    "category": "manga",
+    "titles": {
+      "zhCN": "我的百合乃工作是也!",
+      "zhTW": "百合是我的工作！",
+      "ja": "私の百合はお仕事です!",
+      "en": "Yuri Is My Job!"
+    },
+    "authors": [
+      {
+        "name": "未幡",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2016,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 198384
+      },
+      "anilist": {
+        "id": 101120
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "073",
+    "category": "manga",
+    "titles": {
+      "zhCN": "此花亭奇谭",
+      "zhTW": "此花綺譚",
+      "ja": "此花亭奇譚",
+      "en": "Konohanatei Kitan"
+    },
+    "authors": [
+      {
+        "name": "天乃咲哉",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2009,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 127653
+      },
+      "anilist": {
+        "id": 54455
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "074",
+    "category": "manga",
+    "titles": {
+      "zhCN": "彩纯对蕾丝风俗大有兴趣！",
+      "zhTW": "彩純對百合風俗有興趣!",
+      "ja": "彩純ちゃんはレズ風俗に興味があります！",
+      "en": "Asumi-chan is Interested in Lesbian Brothels!"
+    },
+    "authors": [
+      {
+        "name": "伊月クロ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2020,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": 2
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": {
+        "id": 120112
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "075",
+    "category": "manga",
+    "titles": {
+      "zhCN": "朝花夕歌",
+      "zhTW": "朝花夕歌",
+      "ja": "花唄メモワール",
+      "en": "Hana Uta Memoire"
+    },
+    "authors": [
+      {
+        "name": "一ノ瀬けい",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2023,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 405993
+      },
+      "anilist": {
+        "id": 170523
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "076",
+    "category": "manga",
+    "titles": {
+      "zhCN": "江口家的纯情魅魔",
+      "zhTW": "江口同學家的純情夢魔",
+      "ja": "江口さんちの純情サキュバス",
+      "en": "Miss Eguchi's Pure-Hearted Succubus"
+    },
+    "authors": [
+      {
+        "name": "工藤える",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2024,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 491187
+      },
+      "anilist": {
+        "id": 192037
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "077",
+    "category": "manga",
+    "titles": {
+      "zhCN": "柑橘味香气+",
+      "zhTW": "citrus +~柑橘味香氣PLUS~",
+      "ja": "シトラスプラス",
+      "en": "Citrus Plus"
+    },
+    "authors": [
+      {
+        "name": "三郎太(サブロウタ)",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2018,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 269903
+      },
+      "anilist": {
+        "id": 103884
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "078",
+    "category": "manga",
+    "titles": {
+      "zhCN": "美琴和玲",
+      "zhTW": "美琴和玲",
+      "ja": "ミコレイ",
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "工藤える",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2024,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "079",
+    "category": "manga",
+    "titles": {
+      "zhCN": "牵牛花与加濑同学",
+      "zhTW": "牽牛花與加瀨同學",
+      "ja": "あさがおと加瀬さん。",
+      "en": "Kase-san and…"
+    },
+    "authors": [
+      {
+        "name": "高嶋ひろみ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2010,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 110827
+      },
+      "anilist": {
+        "id": 68105
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 4,
+      "affection": 5,
+      "review": null
+    }
+  },
+  {
+    "id": "080",
+    "category": "manga",
+    "titles": {
+      "zhCN": "谱为君嗥",
+      "zhTW": "寫給妳的吶喊之歌",
+      "ja": "キミが吠えるための歌を、",
+      "en": "Howling Song for Husky Girl"
+    },
+    "authors": [
+      {
+        "name": "樫風",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2024,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 499671
+      },
+      "anilist": {
+        "id": 178230
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "081",
+    "category": "manga",
+    "titles": {
+      "zhCN": "对我垂涎欲滴的非人少女",
+      "zhTW": "對我垂涎欲滴的非人少女",
+      "ja": "私を喰べたい、ひとでなし",
+      "en": "This Monster Wants to Eat Me"
+    },
+    "authors": [
+      {
+        "name": "苗川采",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2020,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": {
+        "id": 313877
+      },
+      "anilist": {
+        "id": 123777
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": 4,
+      "affection": 5,
+      "review": null
+    }
+  },
+  {
+    "id": "082",
+    "category": "manga",
+    "titles": {
+      "zhCN": "致彼时繁花",
+      "zhTW": "敬啟者，致往日盛開的花朵們",
+      "ja": "拝啓、在りし日に咲く花たちへ",
+      "en": "Dear Flowers That Bloom In Days of Yore"
+    },
+    "authors": [
+      {
+        "name": "五十嵐純",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2024,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 524175
+      },
+      "anilist": {
+        "id": 184863
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "083",
+    "category": "manga",
+    "titles": {
+      "zhCN": "比恋爱更青涩",
+      "zhTW": "比戀情更蔚藍",
+      "ja": "恋より青く",
+      "en": "A Love Yet to Bloom"
+    },
+    "authors": [
+      {
+        "name": "深海紺",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2022,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 408902
+      },
+      "anilist": {
+        "id": 155592
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "084",
+    "category": "manga",
+    "titles": {
+      "zhCN": "志乃与恋",
+      "zhTW": "志乃與戀",
+      "ja": "志乃と恋",
+      "en": "Shino and Ren"
+    },
+    "authors": [
+      {
+        "name": "千種みのり",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2023,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 492268
+      },
+      "anilist": {
+        "id": 169254
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "085",
+    "category": "manga",
+    "titles": {
+      "zhCN": "废物落榜生、人生太过艰难就尝试晚上招姬",
+      "zhTW": "廢物落榜生、人生太過艱難就嘗試晚上招姬",
+      "ja": "クズ浪人生、人生が辛いので夜のお姉さんを呼んでみた",
+      "en": "A Scummy Gap Student With a Hard Life Calls Upon a Lady of the Night"
+    },
+    "authors": [
+      {
+        "name": "こすずめ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2021,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 337920
+      },
+      "anilist": {
+        "id": 135007
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "086",
+    "category": "manga",
+    "titles": {
+      "zhCN": "无力圣女与无能王女",
+      "zhTW": "無力聖女與無能王女～魔力值零卻被召喚的聖女異世界救國記～",
+      "ja": "無力聖女と無能王女～魔力ゼロで召喚された聖女の異世界救国記～",
+      "en": "The Helpless Saint and the Powerless Princess"
+    },
+    "authors": [
+      {
+        "name": "玉崎たま",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2024,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 490753
+      },
+      "anilist": {
+        "id": 178107
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "087",
+    "category": "manga",
+    "titles": {
+      "zhCN": "与她女友的不纯初恋",
+      "zhTW": "她的女友與越界的初戀",
+      "ja": "彼女のカノジョと不純な初恋",
+      "en": "My Guilty First Love With Another Girl's Girlfriend"
+    },
+    "authors": [
+      {
+        "name": "Akeo",
+        "roles": null
+      },
+      {
+        "name": "花宮みぃ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2025,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 572767
+      },
+      "anilist": {
+        "id": 209039
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "088",
+    "category": "manga",
+    "titles": {
+      "zhCN": "在飘摇的恋情消散之际",
+      "zhTW": "飄搖戀心凋落時",
+      "ja": "たゆたう恋の散り際に",
+      "en": "As the Wavering Love Falls"
+    },
+    "authors": [
+      {
+        "name": "ゆあま",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2025,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 571483
+      },
+      "anilist": {
+        "id": 196148
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "089",
+    "category": "manga",
+    "titles": {
+      "zhCN": "月下恋心渐明",
+      "zhTW": "月下戀心漸明",
+      "ja": "だって恋は月夜に灯るから",
+      "en": "Love Shines Brightly On Moonlit Nights"
+    },
+    "authors": [
+      {
+        "name": "meji",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2026,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 696349
+      },
+      "anilist": {
+        "id": 215685
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "090",
+    "category": "manga",
+    "titles": {
+      "zhCN": "我怎么可能成为你的恋人，不行不行！（※不是不可能！？）",
+      "zhTW": "我們不可能成為戀人！絕對不行。（※似乎可行？）",
+      "ja": "わたしが恋人になれるわけないじゃん、ムリムリ！（※ムリじゃなかった！？）",
+      "en": "There's No Freaking Way I'll Be Your Lover! Unless..."
+    },
+    "authors": [
+      {
+        "name": "みかみてれん",
+        "roles": null
+      },
+      {
+        "name": "むっしゅ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2019,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 306812
+      },
+      "anilist": {
+        "id": 119650
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "091",
+    "category": "manga",
+    "titles": {
+      "zhCN": "恋语轻唱",
+      "zhTW": "恰如細語般的戀歌",
+      "ja": "ささやくように恋を唄う",
+      "en": "Whisper Me a Love Song"
+    },
+    "authors": [
+      {
+        "name": "竹嶋えく",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2019,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "long",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 283254
+      },
+      "anilist": {
+        "id": 107987
+      }
+    },
+    "personal": {
+      "status": "reading",
+      "rating": 2,
+      "affection": 1,
+      "review": null
+    }
+  },
+  {
+    "id": "092",
+    "category": "manga",
+    "titles": {
+      "zhCN": "草莓芭菲 姐姐萝莉百合合集",
+      "zhTW": "草莓芭菲 姐姐蘿莉百合合集",
+      "ja": "ストロベリーパルフェ おねロリ百合アンソロジー",
+      "en": "Strawberry Parfait: Onee-Loli Yuri Anthology"
+    },
+    "authors": [
+      {
+        "name": "多人",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2020,
+      "completed": false
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 307415
+      },
+      "anilist": {
+        "id": 141627
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "093",
+    "category": "manga",
+    "titles": {
+      "zhCN": "不记得昨天的爱爱吗？百合色色短篇集",
+      "zhTW": "不記得昨天的愛愛嗎？ 百合色色短篇集",
+      "ja": "昨日シたのに覚えてないの？百合えっち短編集",
+      "en": "Don't You Remember What We Did Yesterday? Yuri Ecchi Short Story Collection"
+    },
+    "authors": [
+      {
+        "name": "焼肉定食",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2026,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 614840
+      },
+      "anilist": {
+        "id": 208040
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "094",
+    "category": "manga",
+    "titles": {
+      "zhCN": "想让你说出喜欢我",
+      "zhTW": "想要聽妳說妳喜歡我",
+      "ja": "君に好きっていわせたい",
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "竹嶋えく",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2017,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 254706
+      },
+      "anilist": {
+        "id": 106974
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "095",
+    "category": "manga",
+    "titles": {
+      "zhCN": "(C105) 我其实、只是想做更多。",
+      "zhTW": "(C105) 我其實、只是想做更多。",
+      "ja": "ほんとはもっと、したいだけ",
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "竹嶋えく",
+        "roles": null
+      },
+      {
+        "name": "水草ぱん",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2024,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": {
+        "id": 186940
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "096",
+    "category": "manga",
+    "titles": {
+      "zhCN": "我其实只想和你在一起",
+      "zhTW": "(C106)我其實，只是想要和你在一起",
+      "ja": "ほんとは一緒に、いたいだけ",
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "竹嶋えく",
+        "roles": null
+      },
+      {
+        "name": "水草ぱん",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2025,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": {
+        "id": 205959
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "097",
+    "category": "manga",
+    "titles": {
+      "zhCN": "(C107)我们其实、想更幸福。",
+      "zhTW": "(C107)我們其實、想更幸福。",
+      "ja": "ほんとはもっと幸せな私たち。",
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "竹嶋えく",
+        "roles": null
+      },
+      {
+        "name": "水草ぱん",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2025,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": {
+        "id": 205958
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "098",
+    "category": "manga",
+    "titles": {
+      "zhCN": "(C108)我其实只是想将你妆点",
+      "zhTW": "(C108)我其實只是想將妳妝點",
+      "ja": null,
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "竹嶋えく",
+        "roles": null
+      },
+      {
+        "name": "水草ぱん",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": null,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "099",
+    "category": "manga",
+    "titles": {
+      "zhCN": "欲望很旺盛的她",
+      "zhTW": "性欲很旺盛的她",
+      "ja": null,
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "あまね",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": null,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "100",
+    "category": "manga",
+    "titles": {
+      "zhCN": "姐妹的真心实感",
+      "zhTW": "姐妹的真心實感",
+      "ja": null,
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "辻柚那",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": null,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "101",
+    "category": "manga",
+    "titles": {
+      "zhCN": "从早安到晚安",
+      "zhTW": "從早安到晚安",
+      "ja": "おはようからおやすみまで",
+      "en": "Ohayou Kara Oyasumi Made"
+    },
+    "authors": [
+      {
+        "name": "いつは",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2014,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "102",
+    "category": "manga",
+    "titles": {
+      "zhCN": "想要独占你（我）的全部",
+      "zhTW": "想要獨占你（我）的全部",
+      "ja": null,
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "るぅ1mm",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": null,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "103",
+    "category": "manga",
+    "titles": {
+      "zhCN": "铁道上的天使",
+      "zhTW": "鐵道上的天使",
+      "ja": null,
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "るぅ1mm",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": null,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "104",
+    "category": "manga",
+    "titles": {
+      "zhCN": "被犬系后辈黏上了",
+      "zhTW": "被犬系後輩黏上了",
+      "ja": null,
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "紅野あつ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": null,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "105",
+    "category": "manga",
+    "titles": {
+      "zhCN": "想要毁灭世界的你是麻婆豆腐",
+      "zhTW": "想要毀滅世界的你是麻婆豆腐",
+      "ja": null,
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "タチ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": null,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "106",
+    "category": "manga",
+    "titles": {
+      "zhCN": "主从百合本",
+      "zhTW": "主從百合本",
+      "ja": "主従百合本",
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "伊藤ハチ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2014,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": {
+        "id": 86363
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "107",
+    "category": "manga",
+    "titles": {
+      "zhCN": "marking",
+      "zhTW": "marking",
+      "ja": "Marking",
+      "en": "Marking"
+    },
+    "authors": [
+      {
+        "name": "樫風",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2023,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": {
+        "id": 171544
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "108",
+    "category": "manga",
+    "titles": {
+      "zhCN": "一周一次买下同班同学的那些事 同人",
+      "zhTW": "一周一次買下同班同學的那些事 同人",
+      "ja": null,
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "仮",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": null,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "109",
+    "category": "manga",
+    "titles": {
+      "zhCN": "我捡到了兔女郎学姐",
+      "zhTW": "我撿到了兔女郎學姐",
+      "ja": "バニーガール拾いました。",
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "竹嶋えく",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2025,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "110",
+    "category": "manga",
+    "titles": {
+      "zhCN": "温柔的邻家大姐姐",
+      "zhTW": "溫柔的鄰家大姐姐",
+      "ja": "近所のやさしいおねえさん",
+      "en": "The Nice Neighborhood Lady"
+    },
+    "authors": [
+      {
+        "name": "伊藤ハチ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2018,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": {
+        "id": 116559
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "111",
+    "category": "manga",
+    "titles": {
+      "zhCN": "17岁与18+",
+      "zhTW": "17歲與18+",
+      "ja": "17歳と、18以上 ～後輩ギャルは私と××を知りたいらしい～",
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "工藤える",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2026,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": {
+        "id": 208510
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "112",
+    "category": "manga",
+    "titles": {
+      "zhCN": "心机婊",
+      "zhTW": "心機婊，一夜情的對象竟是黑道大小姐",
+      "ja": null,
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "まこもとたる",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": null,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "113",
+    "category": "manga",
+    "titles": {
+      "zhCN": "姐姐的可怕亲吻",
+      "zhTW": "姐姐的可怕亲吻",
+      "ja": "お姉ちゃんの怖いキス",
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "長代ルージュ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2025,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": {
+        "id": 160895
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "114",
+    "category": "manga",
+    "titles": {
+      "zhCN": "叫我前辈",
+      "zhTW": "叫我前輩",
+      "ja": null,
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "きぃやん",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": null,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 600282
+      },
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "115",
+    "category": "manga",
+    "titles": {
+      "zhCN": "告白选在喜欢后",
+      "zhTW": "告白選在喜歡後",
+      "ja": null,
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "tsuke",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2025,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "116",
+    "category": "manga",
+    "titles": {
+      "zhCN": "黄昏皆因你",
+      "zhTW": "黃昏皆因你",
+      "ja": null,
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "栗原さくら",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": null,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "117",
+    "category": "manga",
+    "titles": {
+      "zhCN": "尿物语",
+      "zhTW": "尿物語",
+      "ja": null,
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "もちオーレ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": null,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "118",
+    "category": "manga",
+    "titles": {
+      "zhCN": "爱毒溺亡",
+      "zhTW": "愛毒溺亡",
+      "ja": "溺れて、愛毒",
+      "en": "Oborete, Aidoku"
+    },
+    "authors": [
+      {
+        "name": "まこもとたる",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2025,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": {
+        "id": 192101
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "119",
+    "category": "manga",
+    "titles": {
+      "zhCN": "美琴怜日记",
+      "zhTW": "米可蕾日誌",
+      "ja": "ミコレイログ",
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "工藤える",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2024,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "120",
+    "category": "manga",
+    "titles": {
+      "zhCN": "熊鹿日和",
+      "zhTW": "熊谷與鹿戶",
+      "ja": null,
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "ねこすきっぷ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": null,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "121",
+    "category": "manga",
+    "titles": {
+      "zhCN": "焼肉定食百合短篇合集",
+      "zhTW": "燒肉定食百合短篇合集",
+      "ja": null,
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "焼肉定食",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": null,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": null
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "122",
+    "category": "manga",
+    "titles": {
+      "zhCN": "吸血鬼与女仆",
+      "zhTW": "吸血鬼與女僕",
+      "ja": "吸血鬼ちゃんとメイドさん",
+      "en": "The Maid and the Vampire"
+    },
+    "authors": [
+      {
+        "name": "ざんか",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2019,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 330862
+      },
+      "anilist": {
+        "id": 135849
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "123",
+    "category": "manga",
+    "titles": {
+      "zhCN": "今天要和姐姐瑟瑟吗",
+      "zhTW": "今天要和姐姐瑟瑟嗎短篇集",
+      "ja": "今日、お姉さんとエッチしない? 百合アンソロジー",
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "焼肉定食",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2026,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 652125
+      },
+      "anilist": {
+        "id": 215514
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "124",
+    "category": "manga",
+    "titles": {
+      "zhCN": "主人大人与我",
+      "zhTW": "主人大人與我 再錄本",
+      "ja": "ご主人様とわたし",
+      "en": "Master and Me"
+    },
+    "authors": [
+      {
+        "name": "伊藤ハチ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2015,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": {
+        "id": 86705
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "125",
+    "category": "manga",
+    "titles": {
+      "zhCN": "make a mark",
+      "zhTW": "make a mark",
+      "ja": "メイク・ア・マーク",
+      "en": "Make a Mark"
+    },
+    "authors": [
+      {
+        "name": "紫のあ",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2022,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": 3,
+      "emotionalDepth": 3
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": {
+        "id": 149384
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": 4,
+      "affection": 4,
+      "review": "真正的坏结局，反而是她们最后在一起了。"
+    }
+  },
+  {
+    "id": "126",
+    "category": "manga",
+    "titles": {
+      "zhCN": "百合婚",
+      "zhTW": "百合婚",
+      "ja": "ゆりこん",
+      "en": "Yurikon"
+    },
+    "authors": [
+      {
+        "name": "久川はる",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2018,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 240368
+      },
+      "anilist": {
+        "id": 104717
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "127",
+    "category": "manga",
+    "titles": {
+      "zhCN": "具有反差感的二人的百合故事",
+      "zhTW": "具有反差感的二人的百合故事",
+      "ja": "ギャップのある女子2人が百合",
+      "en": null
+    },
+    "authors": [
+      {
+        "name": "遮二無二",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2024,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": null,
+      "anilist": {
+        "id": 213002
+      }
+    },
+    "personal": {
+      "status": "planned",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  },
+  {
+    "id": "128",
+    "category": "manga",
+    "titles": {
+      "zhCN": "White Lilies in Love BRIDE's 新婚百合集",
+      "zhTW": "White Lilies in Love BRIDE's 新婚百合集",
+      "ja": "White Lilies in Love BRIDE's 新婚百合アンソロジー",
+      "en": "White Lilies in Love - BRIDE's Newlywed Yuri Anthology"
+    },
+    "authors": [
+      {
+        "name": "久川はる",
+        "roles": null
+      }
+    ],
+    "publication": {
+      "firstPublishedYear": 2019,
+      "completed": true
+    },
+    "cover": true,
+    "tags": {
+      "length": "short",
+      "yuriType": "full",
+      "hLevel": null
+    },
+    "analysis": {
+      "yuriFocus": null,
+      "emotionalDepth": null
+    },
+    "community": {
+      "bangumi": {
+        "id": 275518
+      },
+      "anilist": {
+        "id": 119326
+      }
+    },
+    "personal": {
+      "status": "completed",
+      "rating": null,
+      "affection": null,
+      "review": null
+    }
+  }
+]

@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="ReReva" />
+    <meta name="description" content="archive" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title id="webTitle">档案｜ReReva's yuri</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <h1 id="h1">ReReva's Yuri</h1>
+        <nav>
+          <ul>
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="archive.html" aria-current="page">档案</a></li>
+            <li><a href="about.html">关于</a></li>
+            <li><a href="resources.html">资源</a></li>
+          </ul>
+          <form id="navSearchForm" action="archive.html" method="get">
+            <input
+              type="search"
+              name="q"
+              placeholder="搜索作品…"
+              autocomplete="off"
+            />
+            <input type="submit" value="搜索" disabled />
+          </form>
+        </nav>
+      </div>
+    </header>
+    <main class="aboutLayout archiveLayout">
+      <aside class="archiveFilters">
+        <h2>筛选作品</h2>
+        <form id="archiveSearchForm">
+          <label for="archiveSearch">作品检索</label>
+
+          <div class="archiveSearchBox">
+            <input
+              id="archiveSearch"
+              type="search"
+              placeholder="输入作品名"
+              autocomplete="off"
+            />
+
+            <button type="submit" aria-label="搜索作品" title="搜索">
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                aria-hidden="true"
+              >
+                <circle cx="10.5" cy="10.5" r="6.5" />
+                <path d="M16 16L21 21" />
+              </svg>
+            </button>
+          </div>
+        </form>
+        <label for="sortFilter">排序方式</label>
+        <select id="sortFilter">
+          <option value="id">默认排序</option>
+          <option value="rating">站长评分</option>
+          <option value="affection">站长喜爱</option>
+        </select>
+        <label for="statusFilter">站长阅读状态</label>
+        <select id="statusFilter">
+          <option value="">全部状态</option>
+          <option value="planned">计划</option>
+          <option value="reading">在读</option>
+          <option value="completed">已读</option>
+          <option value="unknown">未知</option>
+        </select>
+
+        <label for="lengthFilter">篇幅</label>
+        <select id="lengthFilter">
+          <option value="">全部篇幅</option>
+          <option value="long">长篇</option>
+          <option value="short">短篇</option>
+        </select>
+
+        <label for="yuriTypeFilter">百合类型</label>
+        <select id="yuriTypeFilter">
+          <option value="">全部类型</option>
+          <option value="full">真百</option>
+          <option value="light">轻百</option>
+        </select>
+
+        <label for="completedFilter">完结状态</label>
+        <select id="completedFilter">
+          <option value="">全部状态</option>
+          <option value="true">已完结</option>
+          <option value="false">未完结</option>
+        </select>
+
+        <label for="hLevelFilter">H Level</label>
+        <select id="hLevelFilter">
+          <option value="">全部级别</option>
+          <option value="1">1 级</option>
+          <option value="2">2 级</option>
+          <option value="3">3 级</option>
+        </select>
+      </aside>
+
+      <section class="archiveContent" aria-label="作品列表">
+        <div class="archiveHeading">
+          <p id="archiveCount" aria-live="polite"></p>
+          <button id="resetFilters" type="button" disabled>重置</button>
+        </div>
+
+        <div id="workList"></div>
+        <p id="noResults" hidden>没有找到符合条件的作品</p>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-inner">
+        <p>ReReva保留所有权利</p>
+        <ul>
+          <li><a href="https://github.com/rereva0611">github</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="../search.js"></script>
+    <script>
+      async function fetchData() {
+        const response = await fetch("../data/works.json");
+        const data = await response.json();
+
+        const workList = document.getElementById("workList");
+
+        // 根据数据生成作品
+        for (const detail of data) {
+          const workId = detail.id;
+
+          const workTitleZhCN =
+            detail.titles.zhCN !== null ? detail.titles.zhCN : "暂未收录";
+
+          const coverSrc =
+            detail.cover !== null
+              ? "../covers/" + workId + ".jpg"
+              : "../covers/000.jpg";
+
+          const coverAlt =
+            detail.cover !== null ? workTitleZhCN + " 封面" : "占位图片";
+
+          // 作品详情链接
+          const workLink = document.createElement("a");
+          workLink.href = "detail.html?id=" + workId;
+
+          // 作品封面
+          const workCoverImg = document.createElement("img");
+          workCoverImg.src = coverSrc;
+          workCoverImg.alt = coverAlt;
+
+          // 保留现有的作品名生成代码
+          const workTitleElement = document.createElement("p");
+          workTitleElement.textContent = workTitleZhCN;
+
+          workLink.appendChild(workCoverImg);
+          workLink.appendChild(workTitleElement);
+
+          // 每部作品的外层容器
+          const workItem = document.createElement("div");
+
+          // 保存可检索的各语言作品名
+          workItem.dataset.search = Object.values(detail.titles)
+            .filter(Boolean)
+            .join(" ")
+            .toLowerCase();
+
+          // 保存阅读状态和篇幅
+          workItem.dataset.status = detail.personal.status ?? "unknown";
+          workItem.dataset.length = detail.tags.length;
+          workItem.dataset.yuriType = detail.tags.yuriType ?? "";
+          workItem.dataset.completed = detail.publication.completed ?? "";
+          workItem.dataset.hLevel = detail.tags.hLevel ?? "";
+
+          // 保存排序需要的数据，-1 表示未填写
+          workItem.dataset.id = workId;
+          workItem.dataset.rating = detail.personal.rating ?? -1;
+          workItem.dataset.affection = detail.personal.affection ?? -1;
+
+          workItem.appendChild(workLink);
+          workList.appendChild(workItem);
+        }
+
+        initArchiveSearch();
+      }
+
+      fetchData();
+
+      // 页眉吸顶
+      const header = document.querySelector("header");
+
+      function updateHeader() {
+        header.classList.toggle("isStuck", window.scrollY >= 16);
+      }
+
+      window.addEventListener("scroll", updateHeader);
+      updateHeader();
+    </script>
+  </body>
+</html>

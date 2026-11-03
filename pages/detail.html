@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="ReReva" />
+    <meta name="description" content="detail" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title id="webTitle">详情｜ReReva's yuri</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <h1 id="h1">ReReva's Yuri</h1>
+        <nav>
+          <ul>
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="archive.html">档案</a></li>
+            <li><a href="about.html">关于</a></li>
+            <li><a href="resources.html">资源</a></li>
+          </ul>
+          <form id="navSearchForm" action="archive.html" method="get">
+            <input
+              type="search"
+              name="q"
+              placeholder="搜索作品…"
+              autocomplete="off"
+            />
+            <input type="submit" value="搜索" disabled />
+          </form>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <article class="detailLayout">
+        <div class="detailCover">
+          <img id="workCover" alt="" />
+        </div>
+        <div class="detailContent">
+          <!-- 信息 -->
+          <section class="detailPanel detailInfo">
+            <h2 id="workTitleZhCN"></h2>
+
+            <p id="workOtherTitles" class="detailLine"></p>
+            <p id="workMeta" class="detailLine"></p>
+
+            <div class="detailPersonal">
+              <span id="workPersonalStatus"></span>
+            </div>
+
+            <div class="detailEvaluation" hidden>
+              <span
+                id="workPersonalAffection"
+                class="ratingSymbols"
+                title="喜爱程度"
+              ></span>
+
+              <span
+                id="workPersonalRating"
+                class="ratingSymbols"
+                title="个人评分"
+              ></span>
+
+              <p>百合浓度：<span id="workYuriFocus"></span></p>
+              <p>情感深度：<span id="workEmotionalDepth"></span></p>
+
+              <div class="platformRating">
+                <div class="platformInfo">
+                  <span class="platformName">BGM</span>
+                  <span id="bangumiCount" class="platformCount"></span>
+                </div>
+
+                <div class="platformScore">
+                  <strong id="bangumiScore">—</strong>
+                  <small>/10</small>
+                </div>
+              </div>
+
+              <div class="platformRating">
+                <div class="platformInfo">
+                  <span class="platformName">AniList</span>
+                  <span id="anilistCount" class="platformCount"></span>
+                </div>
+
+                <div class="platformScore">
+                  <strong id="anilistScore">—</strong>
+                  <small>/100</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="detailTags">
+              <span id="workTagLength" hidden></span>
+              <span id="workTagYuriLevel" hidden></span>
+              <span id="workTagHLevel" hidden></span>
+            </div>
+          </section>
+
+          <!-- 评论 -->
+          <p id="workReview" class="detailPanel" hidden></p>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <div class="footer-inner">
+        <p>ReReva保留所有权利</p>
+        <ul>
+          <li><a href="https://github.com/rereva0611">github</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="../search.js"></script>
+    <script>
+      function renderDetailLine(id, values) {
+        const items = values.filter(
+          (value) => value !== null && value !== undefined && value !== "",
+        );
+
+        const element = document.getElementById(id);
+
+        element.textContent = items.join(" · ");
+        element.hidden = items.length === 0;
+      }
+
+      async function loadPlatformScore(platform, id) {
+        const scoreElement = document.getElementById(platform + "Score");
+        const countElement = document.getElementById(platform + "Count");
+
+        scoreElement.textContent = "—";
+        countElement.textContent = "";
+
+        if (id === null || id === undefined) return;
+
+        countElement.textContent = "加载中…";
+
+        try {
+          let response;
+
+          if (platform === "bangumi") {
+            response = await fetch("https://api.bgm.tv/v0/subjects/" + id);
+          } else {
+            const query = `
+        query ($id: Int!) {
+          Media(id: $id, type: MANGA) {
+            averageScore
+            stats {
+              scoreDistribution {
+                amount
+              }
+            }
+          }
+        }
+      `;
+
+            response = await fetch("https://graphql.anilist.co", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json",
+              },
+              body: JSON.stringify({
+                query: query,
+                variables: { id: id },
+              }),
+            });
+          }
+
+          if (!response.ok) throw new Error("HTTP " + response.status);
+
+          const data = await response.json();
+          let score;
+          let count;
+
+          if (platform === "bangumi") {
+            score = data.rating.score;
+            count = data.rating.total;
+          } else {
+            if (data.errors?.length) {
+              throw new Error(data.errors[0].message);
+            }
+
+            const media = data.data?.Media;
+            const distribution = media?.stats?.scoreDistribution;
+
+            if (!Array.isArray(distribution)) {
+              throw new Error("未取得 AniList 评分人数");
+            }
+
+            score = media.averageScore;
+            count = distribution.reduce(
+              (total, item) => total + item.amount,
+              0,
+            );
+          }
+
+          if (count === 0 || score === null) {
+            scoreElement.textContent = "—";
+          } else {
+            scoreElement.textContent =
+              platform === "bangumi" ? score.toFixed(1) : score;
+          }
+
+          countElement.textContent = count.toLocaleString("zh-CN") + " 人评分";
+        } catch (error) {
+          scoreElement.textContent = "—";
+          countElement.textContent = "读取失败";
+          console.error(platform + " 评分读取失败", error);
+        }
+      }
+
+      async function fetchData() {
+        const response = await fetch("../data/works.json");
+        const data = await response.json();
+        const params = new URLSearchParams(window.location.search);
+        const workId = params.get("id");
+
+        for (const detail of data) {
+          if (detail.id === workId) {
+            // 简中标题
+            document.getElementById("workTitleZhCN").textContent =
+              detail.titles.zhCN;
+            document.getElementById("webTitle").textContent =
+              detail.titles.zhCN;
+
+            // 译名
+            renderDetailLine("workOtherTitles", [
+              detail.titles.zhTW,
+              detail.titles.ja,
+              detail.titles.en,
+            ]);
+
+            // 作者名字
+            const authorNames = [];
+
+            if (detail.authors !== null) {
+              for (const author of detail.authors) {
+                if (author.name !== null && author.name !== "") {
+                  authorNames.push(author.name);
+                }
+              }
+            }
+
+            // 完结状态
+            let completedText = null;
+
+            if (detail.publication.completed === true) {
+              completedText = "已完结";
+            } else if (detail.publication.completed === false) {
+              completedText = "未完结";
+            }
+
+            // 作者、年份、作品状态
+            renderDetailLine("workMeta", [
+              authorNames.join(","),
+              detail.publication.firstPublishedYear,
+              completedText,
+            ]);
+            // 评分
+            const ratingElement = document.getElementById("workPersonalRating");
+            const rating = detail.personal.rating;
+
+            ratingElement.hidden = rating == null;
+
+            if (!ratingElement.hidden) {
+              ratingElement.innerHTML =
+                '<span style="font-size:12px;letter-spacing:0;color:#7f8fa3;margin-right:4px;">评分</span>' +
+                '<img src="../stars and hearts/实星.png" width="18" height="18" alt="★">'.repeat(
+                  rating,
+                ) +
+                '<img src="../stars and hearts/空星.png" width="18" height="18" alt="☆">'.repeat(
+                  5 - rating,
+                );
+            }
+
+            // 喜爱程度
+            const affectionElement = document.getElementById(
+              "workPersonalAffection",
+            );
+            const affection = detail.personal.affection;
+
+            affectionElement.hidden = affection == null;
+
+            if (!affectionElement.hidden) {
+              affectionElement.innerHTML =
+                '<span style="font-size:12px;letter-spacing:0;color:#7f8fa3;margin-right:4px;">喜爱</span>' +
+                '<img src="../stars and hearts/实心.png" width="18" height="18" alt="♥">'.repeat(
+                  affection,
+                ) +
+                '<img src="../stars and hearts/空心.png" width="18" height="18" alt="♡">'.repeat(
+                  5 - affection,
+                );
+            }
+
+            // 篇幅
+            const lengthElement = document.getElementById("workTagLength");
+            if (detail.tags.length === "long") {
+              lengthElement.textContent = "长篇";
+            } else if (detail.tags.length === "short") {
+              lengthElement.textContent = "短篇";
+            } else {
+              lengthElement.textContent = "";
+            }
+            lengthElement.hidden = lengthElement.textContent === "";
+
+            // 百合程度
+            const yuriLevelElement =
+              document.getElementById("workTagYuriLevel");
+            if (detail.tags.yuriType === "full") {
+              yuriLevelElement.textContent = "真百";
+            } else if (detail.tags.yuriType === "light") {
+              yuriLevelElement.textContent = "轻百";
+            } else {
+              yuriLevelElement.textContent = "";
+            }
+            yuriLevelElement.hidden = yuriLevelElement.textContent === "";
+
+            // H 程度
+            const hLevelElement = document.getElementById("workTagHLevel");
+            const hLevel = detail.tags.hLevel;
+
+            hLevelElement.hidden = hLevel == null || hLevel === "";
+            hLevelElement.textContent = "H";
+
+            if (hLevel === 1) {
+              hLevelElement.style.color = "#4e8b64"; // 绿色
+            } else if (hLevel === 2) {
+              hLevelElement.style.color = "#b7932f"; // 黄色
+            } else if (hLevel === 3) {
+              hLevelElement.style.color = "#c46464"; // 红色
+            }
+
+            const yuriFocusElement = document.getElementById("workYuriFocus");
+            const emotionalDepthElement =
+              document.getElementById("workEmotionalDepth");
+
+            const yuriFocus = detail.analysis?.yuriFocus;
+            const emotionalDepth = detail.analysis?.emotionalDepth;
+
+            yuriFocusElement.parentElement.hidden = yuriFocus == null;
+            emotionalDepthElement.parentElement.hidden = emotionalDepth == null;
+
+            yuriFocusElement.textContent = yuriFocus ?? "";
+            emotionalDepthElement.textContent = emotionalDepth ?? "";
+
+            for (const platform of ["bangumi", "anilist"]) {
+              const id = detail.community?.[platform]?.id;
+              const card = document
+                .getElementById(platform + "Score")
+                .closest(".platformRating");
+
+              card.hidden = id == null;
+
+              if (!card.hidden) {
+                loadPlatformScore(platform, id);
+              }
+            }
+
+            // 全部评价项都隐藏时，整个评价区也隐藏
+            const evaluation = document.querySelector(".detailEvaluation");
+
+            evaluation.hidden = [...evaluation.children].every(
+              (item) => item.hidden,
+            );
+
+            // 封面
+            const coverElement = document.getElementById("workCover");
+            if (detail.cover !== null) {
+              coverElement.src = "../covers/" + workId + ".jpg";
+              coverElement.alt = detail.titles.zhCN + " 封面";
+            } else {
+              coverElement.src = "../covers/000.jpg";
+              coverElement.alt = "占位图片";
+            }
+
+            // 评语
+            const reviewElement = document.getElementById("workReview");
+            if (detail.personal.review !== null) {
+              reviewElement.textContent = detail.personal.review;
+              reviewElement.hidden = false;
+            } else {
+              reviewElement.textContent = "";
+              reviewElement.hidden = true;
+            }
+
+            break;
+          }
+        }
+      }
+
+      fetchData();
+
+      // 页眉吸顶
+      const header = document.querySelector("header");
+
+      function updateHeader() {
+        header.classList.toggle("isStuck", window.scrollY >= 16);
+      }
+
+      window.addEventListener("scroll", updateHeader);
+      updateHeader();
+    </script>
+  </body>
+</html>

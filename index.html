@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="ReReva" />
+    <meta name="description" content="yuri archive" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>首页｜ReReva's yuri</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <h1 id="h1">ReReva's Yuri</h1>
+        <nav>
+          <ul>
+            <li><a href="#h1" aria-current="page">首页</a></li>
+            <li><a href="pages/archive.html">档案</a></li>
+            <li><a href="pages/about.html">关于</a></li>
+            <li><a href="pages/resources.html">资源</a></li>
+          </ul>
+          <form id="navSearchForm" action="pages/archive.html" method="get">
+            <input
+              type="search"
+              name="q"
+              placeholder="搜索作品…"
+              autocomplete="off"
+            />
+            <input type="submit" value="搜索" disabled />
+          </form>
+        </nav>
+      </div>
+    </header>
+    <main class="homePage">
+      <img class="homeCharacter" src="data/七海灯子小糸侑.png" alt="" />
+      <section class="welcome">
+        <h2>ReReva's<br />Yuri Archive</h2>
+        <p>一个不知名百合豚的馆藏</p>
+      </section>
+      <section class="stats" aria-label="阅读统计">
+        <div class="stats-items">
+          <p><span id="plannedCount">0</span>计划</p>
+          <p><span id="readingCount">0</span>在读</p>
+          <p><span id="completedCount">0</span>已读</p>
+          <a class="statsArchive" href="pages/archive.html">
+            <span id="totalCount">0</span>收录
+          </a>
+        </div>
+      </section>
+      <section class="collection" aria-label="封面轮播">
+        <div class="coverViewport">
+          <div class="coverTrack" id="coverTrack">
+            <div class="coverGroup" id="coverGroup"></div>
+          </div>
+        </div>
+        <div class="coverTooltip" id="coverTooltip" hidden></div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-inner">
+        <p>ReReva保留所有权利</p>
+        <ul>
+          <li><a href="https://github.com/rereva0611">github</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="search.js"></script>
+    <script>
+      // 抓取json数据
+      async function fetchData() {
+        // 读取作品数据
+        const response = await fetch("data/works.json");
+        const data = await response.json();
+        let plannedCount = 0;
+        let readingCount = 0;
+        let completedCount = 0;
+
+        const coverTrack = document.getElementById("coverTrack");
+        const coverGroup = document.getElementById("coverGroup");
+        for (const detail of data) {
+          // 累计阅读数量
+          if (detail.personal.status === "planned") {
+            plannedCount += 1;
+          } else if (detail.personal.status === "reading") {
+            readingCount += 1;
+          } else if (detail.personal.status === "completed") {
+            completedCount += 1;
+          }
+          // 封面
+          const workLink = document.createElement("a");
+          workLink.href = "pages/detail.html?id=" + detail.id;
+          workLink.dataset.title =
+            detail.titles.zhCN !== null ? detail.titles.zhCN : "暂未收录";
+          const workCoverImg = document.createElement("img");
+          workCoverImg.src =
+            detail.cover !== null
+              ? "covers/" + detail.id + ".jpg"
+              : "covers/000.jpg";
+          workCoverImg.alt =
+            detail.titles.zhCN !== null
+              ? detail.titles.zhCN + " 封面"
+              : "作品封面";
+          workLink.appendChild(workCoverImg);
+          coverGroup.appendChild(workLink);
+        }
+
+        // 显示统计结果
+        document.getElementById("plannedCount").textContent = plannedCount;
+        document.getElementById("readingCount").textContent = readingCount;
+        document.getElementById("completedCount").textContent = completedCount;
+        document.getElementById("totalCount").textContent = data.length;
+
+        // 复制整组封面
+        const coverCopy = coverGroup.cloneNode(true);
+        coverCopy.removeAttribute("id");
+        coverCopy.classList.add("coverGroupCopy");
+
+        coverTrack.appendChild(coverCopy);
+
+        // 在轮播区域外显示作品名，避免气泡被封面框裁切
+        const coverTooltip = document.getElementById("coverTooltip");
+        let activeCover = null;
+
+        function positionCoverTooltip() {
+          if (activeCover === null) return;
+
+          const coverRect = activeCover.getBoundingClientRect();
+          let tooltipLeft =
+            coverRect.left + coverRect.width / 2 - coverTooltip.offsetWidth / 2;
+          let tooltipTop = coverRect.top - coverTooltip.offsetHeight - 8;
+
+          // 在浏览器边缘留一点空间
+          if (tooltipLeft < 8) tooltipLeft = 8;
+          if (tooltipLeft + coverTooltip.offsetWidth > window.innerWidth - 8) {
+            tooltipLeft = window.innerWidth - coverTooltip.offsetWidth - 8;
+          }
+          if (tooltipTop < 8) tooltipTop = 8;
+
+          coverTooltip.style.left = tooltipLeft + "px";
+          coverTooltip.style.top = tooltipTop + "px";
+        }
+
+        for (const link of coverTrack.querySelectorAll("a")) {
+          link.addEventListener("mouseenter", () => {
+            activeCover = link;
+            coverTooltip.textContent = link.dataset.title;
+            coverTooltip.hidden = false;
+            positionCoverTooltip();
+          });
+
+          link.addEventListener("mouseleave", () => {
+            activeCover = null;
+            coverTooltip.hidden = true;
+          });
+        }
+
+        window.addEventListener("scroll", positionCoverTooltip);
+        window.addEventListener("resize", positionCoverTooltip);
+
+        // 等图片尺寸稳定后，再测量宽度
+        for (const img of coverTrack.querySelectorAll("img")) {
+          await img.decode().catch(() => {});
+        }
+
+        const speed = 50;
+        const groupWidth = coverGroup.getBoundingClientRect().width;
+
+        coverTrack.style.setProperty(
+          "--scrollDuration",
+          groupWidth / speed + "s",
+        );
+
+        document.querySelector(".collection").classList.add("isReady");
+      }
+      fetchData();
+
+      // 页眉吸顶
+      const header = document.querySelector("header");
+
+      function updateHeader() {
+        header.classList.toggle("isStuck", window.scrollY >= 16);
+      }
+
+      window.addEventListener("scroll", updateHeader);
+      updateHeader();
+    </script>
+  </body>
+</html>
