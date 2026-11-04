@@ -96,7 +96,10 @@
           </section>
 
           <!-- 评论 -->
-          <p id="workReview" class="detailPanel" hidden></p>
+          <section id="workReviewSection" class="detailPanel" hidden>
+            <h3 class="reviewHeading">评语</h3>
+            <p id="workReview" class="reviewText"></p>
+          </section>
         </div>
       </article>
     </main>
@@ -372,13 +375,14 @@
             }
 
             // 评语
+            const reviewSection = document.getElementById("workReviewSection");
             const reviewElement = document.getElementById("workReview");
-            if (detail.personal.review !== null) {
+            if (detail.personal.review) {
               reviewElement.textContent = detail.personal.review;
-              reviewElement.hidden = false;
+              reviewSection.hidden = false;
             } else {
               reviewElement.textContent = "";
-              reviewElement.hidden = true;
+              reviewSection.hidden = true;
             }
 
             break;

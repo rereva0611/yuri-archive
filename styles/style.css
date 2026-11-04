@@ -704,6 +704,14 @@ main {
   padding-bottom: 20px;
 }
 
+.reviewHeading {
+  margin: -10px 0 20px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #dce5ef;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
 #workReview {
   margin: 0;
   white-space: pre-line;
@@ -1000,4 +1008,3 @@ footer a:hover {
   color: #3478bd;
   text-decoration: underline;
 }
-
