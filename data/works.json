@@ -784,7 +784,7 @@
     },
     "personal": {
       "status": "completed",
-      "rating": 4,
+      "rating": 5,
       "affection": 5,
       "review": "哪怕你知道故事的结局，也依然会被这个故事感动。"
     }
@@ -4642,9 +4642,9 @@
     "category": "manga",
     "titles": {
       "zhCN": "marking",
-      "zhTW": "marking",
+      "zhTW": null,
       "ja": "Marking",
-      "en": "Marking"
+      "en": null
     },
     "authors": [
       {
@@ -5384,9 +5384,9 @@
     "category": "manga",
     "titles": {
       "zhCN": "make a mark",
-      "zhTW": "make a mark",
+      "zhTW": null,
       "ja": "メイク・ア・マーク",
-      "en": "Make a Mark"
+      "en": null
     },
     "authors": [
       {
@@ -5417,7 +5417,7 @@
     "personal": {
       "status": "completed",
       "rating": 4,
-      "affection": 4,
+      "affection": 3,
       "review": "真正的坏结局，反而是她们最后在一起了。"
     }
   },
