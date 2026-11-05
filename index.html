@@ -114,6 +114,7 @@
 
         const coverTrack = document.getElementById("coverTrack");
         const coverGroup = document.getElementById("coverGroup");
+        const placeholderCover = "covers/000.jpg";
         for (const detail of data) {
           // 累计阅读数量
           if (detail.personal.status === "planned") {
@@ -132,7 +133,7 @@
           workCoverImg.src =
             detail.cover !== null
               ? "covers/" + detail.id + ".jpg"
-              : "covers/000.jpg";
+              : placeholderCover;
           workCoverImg.alt =
             detail.titles.zhCN !== null
               ? detail.titles.zhCN + " 封面"
@@ -202,7 +203,18 @@
 
         // 等图片尺寸稳定后，再测量宽度
         for (const img of coverTrack.querySelectorAll("img")) {
-          await img.decode().catch(() => {});
+          try {
+            await img.decode();
+          } catch {
+            if (
+              img.complete &&
+              img.naturalWidth === 0 &&
+              img.getAttribute("src") !== placeholderCover
+            ) {
+              img.src = placeholderCover;
+              await img.decode().catch(() => {});
+            }
+          }
         }
 
         const speed = 50;

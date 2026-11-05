@@ -384,11 +384,19 @@
 
             // 封面
             const coverElement = document.getElementById("workCover");
+            const placeholderCover = "../covers/000.jpg";
             if (detail.cover !== null) {
+              coverElement.addEventListener(
+                "error",
+                () => {
+                  coverElement.src = placeholderCover;
+                },
+                { once: true },
+              );
               coverElement.src = "../covers/" + workId + ".jpg";
               coverElement.alt = detail.titles.zhCN + " 封面";
             } else {
-              coverElement.src = "../covers/000.jpg";
+              coverElement.src = placeholderCover;
               coverElement.alt = "占位图片";
             }
 

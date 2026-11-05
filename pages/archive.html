@@ -169,6 +169,7 @@
         }
 
         const workList = document.getElementById("workList");
+        const placeholderCover = "../covers/000.jpg";
 
         // 根据数据生成作品
         for (const detail of data) {
@@ -180,7 +181,7 @@
           const coverSrc =
             detail.cover !== null
               ? "../covers/" + workId + ".jpg"
-              : "../covers/000.jpg";
+              : placeholderCover;
 
           const coverAlt =
             detail.cover !== null ? workTitleZhCN + " 封面" : "占位图片";
@@ -191,6 +192,15 @@
 
           // 作品封面
           const workCoverImg = document.createElement("img");
+          if (coverSrc !== placeholderCover) {
+            workCoverImg.addEventListener(
+              "error",
+              () => {
+                workCoverImg.src = placeholderCover;
+              },
+              { once: true },
+            );
+          }
           workCoverImg.src = coverSrc;
           workCoverImg.alt = coverAlt;
 
