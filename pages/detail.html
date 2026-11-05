@@ -136,11 +136,16 @@
 
         countElement.textContent = "加载中…";
 
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 8000);
+
         try {
           let response;
 
           if (platform === "bangumi") {
-            response = await fetch("https://api.bgm.tv/v0/subjects/" + id);
+            response = await fetch("https://api.bgm.tv/v0/subjects/" + id, {
+              signal: controller.signal,
+            });
           } else {
             const query = `
         query ($id: Int!) {
@@ -156,6 +161,7 @@
       `;
 
             response = await fetch("https://graphql.anilist.co", {
+              signal: controller.signal,
               method: "POST",
               headers: {
                 "Content-Type": "application/json",
@@ -203,11 +209,14 @@
               platform === "bangumi" ? score.toFixed(1) : score;
           }
 
-          countElement.textContent = count.toLocaleString("zh-CN") + " 人评分";
+          countElement.textContent =
+            count === 0 ? "暂无评分" : count.toLocaleString("zh-CN") + " 人评分";
         } catch (error) {
           scoreElement.textContent = "—";
           countElement.textContent = "读取失败";
           console.error(platform + " 评分读取失败", error);
+        } finally {
+          clearTimeout(timeoutId);
         }
       }
 
