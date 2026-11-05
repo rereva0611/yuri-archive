@@ -31,7 +31,8 @@
       </div>
     </header>
     <main>
-      <article class="detailLayout">
+      <p id="detailStatus" role="status">正在加载作品…</p>
+      <article class="detailLayout" hidden>
         <div class="detailCover">
           <img id="workCover" alt="" />
         </div>
@@ -210,11 +211,19 @@
         }
       }
 
+      const detailStatus = document.getElementById("detailStatus");
+
       async function fetchData() {
-        const response = await fetch("../data/works.json");
-        const data = await response.json();
-        const params = new URLSearchParams(window.location.search);
-        const workId = params.get("id");
+        const workId = new URLSearchParams(location.search).get("id")?.trim();
+        let data = [];
+
+        if (workId) {
+          const response = await fetch("../data/works.json");
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+          data = await response.json();
+          if (!Array.isArray(data)) throw new Error("作品数据格式错误");
+        }
 
         for (const detail of data) {
           if (detail.id === workId) {
@@ -385,12 +394,19 @@
               reviewSection.hidden = true;
             }
 
-            break;
+            document.querySelector(".detailLayout").hidden = false;
+            detailStatus.hidden = true;
+            return;
           }
         }
+        detailStatus.innerHTML =
+          '找不到这部作品。<a href="archive.html">返回档案</a>';
       }
 
-      fetchData();
+      fetchData().catch((error) => {
+        console.error(error);
+        detailStatus.innerHTML = '作品详情加载失败。<a href="">重试</a>';
+      });
 
       // 页眉吸顶
       const header = document.querySelector("header");
