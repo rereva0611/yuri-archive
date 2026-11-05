@@ -108,7 +108,10 @@
 
       <section class="archiveContent" aria-label="作品列表">
         <div class="archiveHeading">
-          <p id="archiveCount" aria-live="polite"></p>
+          <p class="archiveLoadStatus">
+            <span id="archiveCount" aria-live="polite">正在加载作品…</span>
+            <button id="retryWorks" type="button" hidden>重试</button>
+          </p>
           <button id="resetFilters" type="button" disabled>重置</button>
         </div>
 
@@ -126,9 +129,44 @@
     </footer>
     <script src="../search.js"></script>
     <script>
+      const retryWorksButton = document.getElementById("retryWorks");
+
       async function fetchData() {
-        const response = await fetch("../data/works.json");
-        const data = await response.json();
+        if (retryWorksButton.disabled) return;
+        retryWorksButton.disabled = true;
+        retryWorksButton.hidden = true;
+        archiveCount.textContent = "正在加载作品…";
+
+        let data;
+        try {
+          const response = await fetch("../data/works.json");
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+          data = await response.json();
+          const isObject = (value) =>
+            value !== null && typeof value === "object" && !Array.isArray(value);
+
+          if (
+            !Array.isArray(data) ||
+            !data.every(
+              (work) =>
+                typeof work?.id === "string" &&
+                work.id.trim() !== "" &&
+                isObject(work.titles) &&
+                isObject(work.personal) &&
+                isObject(work.tags) &&
+                isObject(work.publication),
+            )
+          ) {
+            throw new Error("作品数据格式错误");
+          }
+        } catch (error) {
+          archiveCount.textContent = "作品数据加载失败。";
+          retryWorksButton.disabled = false;
+          retryWorksButton.hidden = false;
+          console.error(error);
+          return;
+        }
 
         const workList = document.getElementById("workList");
 
@@ -188,9 +226,13 @@
           workList.appendChild(workItem);
         }
 
+        if (data.length === 0) {
+          noResults.textContent = "暂无收录作品";
+        }
         initArchiveSearch();
       }
 
+      retryWorksButton.addEventListener("click", fetchData);
       fetchData();
 
       // 页眉吸顶

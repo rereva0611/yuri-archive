@@ -42,7 +42,9 @@
           <li><a href="#resource-5">电子书</a></li>
         </ul>
       </aside>
-      <article class="aboutContent"></article>
+      <article class="aboutContent">
+        <p role="status">正在加载内容…</p>
+      </article>
     </main>
     <footer>
       <div class="footer-inner">
@@ -56,18 +58,30 @@
     <script src="../search.js"></script>
     <script>
       async function fetchData() {
-        const response = await fetch("../data/resources.md");
-        const data = await response.text();
-
-        const html = marked.parse(data);
         const aboutContent = document.querySelector(".aboutContent");
-        aboutContent.innerHTML = html;
 
-        let index = 0;
+        try {
+          if (typeof window.marked?.parse !== "function") {
+            throw new Error("Marked 未加载");
+          }
 
-        for (const heading of aboutContent.querySelectorAll("h2")) {
-          heading.id = "resource-" + index;
-          index += 1;
+          const response = await fetch("../data/resources.md");
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          const data = await response.text();
+
+          const html = window.marked.parse(data);
+          aboutContent.innerHTML = html;
+
+          let index = 0;
+
+          for (const heading of aboutContent.querySelectorAll("h2")) {
+            heading.id = "resource-" + index;
+            index += 1;
+          }
+        } catch (error) {
+          aboutContent.innerHTML =
+            '<p>内容加载失败。<a id="retryContent" href="">重试</a></p>';
+          console.error(error);
         }
       }
 

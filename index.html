@@ -38,15 +38,19 @@
       </section>
       <section class="stats" aria-label="阅读统计">
         <div class="stats-items">
-          <p><span id="plannedCount">0</span>计划</p>
-          <p><span id="readingCount">0</span>在读</p>
-          <p><span id="completedCount">0</span>已读</p>
+          <p><span id="plannedCount">—</span>计划</p>
+          <p><span id="readingCount">—</span>在读</p>
+          <p><span id="completedCount">—</span>已读</p>
           <a class="statsArchive" href="pages/archive.html">
-            <span id="totalCount">0</span>收录
+            <span id="totalCount">—</span>收录
           </a>
         </div>
       </section>
       <section class="collection" aria-label="封面轮播">
+        <p id="worksStatus">
+          <span id="worksStatusText" role="status">正在加载作品…</span>
+          <button id="retryWorks" type="button" hidden>重试</button>
+        </p>
         <div class="coverViewport">
           <div class="coverTrack" id="coverTrack">
             <div class="coverGroup" id="coverGroup"></div>
@@ -65,11 +69,45 @@
     </footer>
     <script src="search.js"></script>
     <script>
-      // 抓取json数据
+      const worksStatus = document.getElementById("worksStatus");
+      const worksStatusText = document.getElementById("worksStatusText");
+      const retryWorksButton = document.getElementById("retryWorks");
+
       async function fetchData() {
-        // 读取作品数据
-        const response = await fetch("data/works.json");
-        const data = await response.json();
+        if (retryWorksButton.disabled) return;
+        retryWorksButton.disabled = true;
+        retryWorksButton.hidden = true;
+        worksStatusText.textContent = "正在加载作品…";
+
+        let data;
+        try {
+          const response = await fetch("data/works.json");
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+          data = await response.json();
+          const isObject = (value) =>
+            value !== null && typeof value === "object" && !Array.isArray(value);
+
+          if (
+            !Array.isArray(data) ||
+            !data.every(
+              (work) =>
+                typeof work?.id === "string" &&
+                work.id.trim() !== "" &&
+                isObject(work.titles) &&
+                isObject(work.personal),
+            )
+          ) {
+            throw new Error("作品数据格式错误");
+          }
+        } catch (error) {
+          worksStatusText.textContent = "作品数据加载失败。";
+          retryWorksButton.disabled = false;
+          retryWorksButton.hidden = false;
+          console.error(error);
+          return;
+        }
+
         let plannedCount = 0;
         let readingCount = 0;
         let completedCount = 0;
@@ -108,6 +146,12 @@
         document.getElementById("readingCount").textContent = readingCount;
         document.getElementById("completedCount").textContent = completedCount;
         document.getElementById("totalCount").textContent = data.length;
+
+        worksStatus.hidden = true;
+        if (data.length === 0) {
+          coverTrack.closest(".collection").hidden = true;
+          return;
+        }
 
         // 复制整组封面
         const coverCopy = coverGroup.cloneNode(true);
@@ -171,6 +215,7 @@
 
         document.querySelector(".collection").classList.add("isReady");
       }
+      retryWorksButton.addEventListener("click", fetchData);
       fetchData();
 
       // 页眉吸顶

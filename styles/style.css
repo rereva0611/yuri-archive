@@ -185,13 +185,14 @@ main {
   right: 40px;
   width: 520px;
   height: auto;
-  z-index: 20;
+  z-index: 0;
   mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
 }
 
 .welcome {
   max-width: 640px;
   margin-bottom: 20px;
+  text-shadow: 0 2px 12px rgba(243, 248, 253, 0.9);
 }
 
 .welcome h2 {
@@ -429,6 +430,11 @@ main {
   grid-template-columns: 200px minmax(0, 1fr);
 }
 
+.archiveFilters {
+  max-height: calc(100dvh - 120px);
+  overflow-y: auto;
+}
+
 .archiveFilters label {
   display: block;
   margin: 20px 0 8px;
@@ -548,6 +554,17 @@ main {
   background-color: #fff;
   color: #2d3748;
   box-shadow: 0 8px 24px rgba(80, 120, 160, 0.14);
+
+  max-block-size: none;
+  position-try-order: normal;
+  position-try-fallbacks:
+    flip-block,
+    --archive-picker-scroll flip-block,
+    --archive-picker-scroll;
+}
+
+@position-try --archive-picker-scroll {
+  max-block-size: stretch;
 }
 
 .archiveFilters option {
@@ -593,7 +610,7 @@ main {
   font-size: 20px;
 }
 
-#archiveCount {
+.archiveLoadStatus {
   margin: 0;
   color: #7f8fa3;
   font-size: 13px;
@@ -954,14 +971,38 @@ main {
   margin: 0 0 16px;
 }
 
-.aboutContent a {
+#worksStatus:has(> #retryWorks:not([hidden])),
+.archiveLoadStatus:has(> #retryWorks:not([hidden])) {
+  color: inherit;
+  font-size: inherit;
+  line-height: 1.8;
+}
+
+#retryWorks {
+  appearance: none;
+  border: 0;
+  padding: 0;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.aboutContent a,
+#retryWorks {
   color: #568bc1;
   text-decoration: none;
 }
 
-.aboutContent a:hover {
+.aboutContent a:hover,
+#retryWorks:hover {
   color: #245d97;
-  text-decoration: none;
+}
+
+#retryWorks:focus-visible,
+#retryContent:focus-visible {
+  outline: 2px solid #3478bd;
+  outline-offset: 2px;
 }
 
 /*footer*/
