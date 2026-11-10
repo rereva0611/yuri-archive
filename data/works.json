@@ -2701,8 +2701,8 @@
       "hLevel": null
     },
     "analysis": {
-      "yuriFocus": null,
-      "emotionalDepth": null
+      "yuriFocus": 3,
+      "emotionalDepth": 3
     },
     "community": {
       "bangumi": {
@@ -2713,9 +2713,9 @@
       }
     },
     "personal": {
-      "status": "planned",
-      "rating": null,
-      "affection": null,
+      "status": "completed",
+      "rating": 4,
+      "affection": 5,
       "review": null
     }
   },

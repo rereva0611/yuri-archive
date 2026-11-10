@@ -63,7 +63,9 @@
       <div class="footer-inner">
         <p>© 2026 ReReva · Yuri Archive</p>
         <ul>
-          <li><a href="https://github.com/rereva0611/yuri-archive">GitHub</a></li>
+          <li>
+            <a href="https://github.com/rereva0611/yuri-archive">GitHub</a>
+          </li>
         </ul>
       </div>
     </footer>
@@ -86,7 +88,9 @@
 
           data = await response.json();
           const isObject = (value) =>
-            value !== null && typeof value === "object" && !Array.isArray(value);
+            value !== null &&
+            typeof value === "object" &&
+            !Array.isArray(value);
 
           if (
             !Array.isArray(data) ||
@@ -124,6 +128,9 @@
           } else if (detail.personal.status === "completed") {
             completedCount += 1;
           }
+          const rating = detail.personal.rating ?? 0;
+          const affection = detail.personal.affection ?? 0;
+          if (rating < 4 && affection < 4) continue;
           // 封面
           const workLink = document.createElement("a");
           workLink.href = "pages/detail.html?id=" + detail.id;
@@ -149,7 +156,7 @@
         document.getElementById("totalCount").textContent = data.length;
 
         worksStatus.hidden = true;
-        if (data.length === 0) {
+        if (coverGroup.children.length === 0) {
           coverTrack.closest(".collection").hidden = true;
           return;
         }
