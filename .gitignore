@@ -6,3 +6,6 @@ _verify/
 local-only/
 .env
 .env.*
+
+node_modules/
+dist/

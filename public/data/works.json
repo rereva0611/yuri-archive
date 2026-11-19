@@ -178,7 +178,7 @@
     },
     "personal": {
       "status": "completed",
-      "rating": 2,
+      "rating": 3,
       "affection": 2,
       "review": null
     }
@@ -1182,7 +1182,7 @@
     },
     "personal": {
       "status": "completed",
-      "rating": 2,
+      "rating": 3,
       "affection": 3,
       "review": null
     }
@@ -2054,7 +2054,7 @@
     },
     "personal": {
       "status": "reading",
-      "rating": 5,
+      "rating": 4,
       "affection": 5,
       "review": null
     }
@@ -2802,7 +2802,7 @@
     },
     "personal": {
       "status": "completed",
-      "rating": 3,
+      "rating": 4,
       "affection": 4,
       "review": null
     }
@@ -3145,8 +3145,8 @@
       "hLevel": null
     },
     "analysis": {
-      "yuriFocus": null,
-      "emotionalDepth": null
+      "yuriFocus": 3,
+      "emotionalDepth": 3
     },
     "community": {
       "bangumi": {
@@ -3157,9 +3157,9 @@
       }
     },
     "personal": {
-      "status": "planned",
-      "rating": null,
-      "affection": null,
+      "status": "reading",
+      "rating": 4,
+      "affection": 5,
       "review": null
     }
   },
@@ -3243,9 +3243,9 @@
       }
     },
     "personal": {
-      "status": "planned",
-      "rating": null,
-      "affection": null,
+      "status": "reading",
+      "rating": 2,
+      "affection": 3,
       "review": null
     }
   },
@@ -5416,7 +5416,7 @@
     },
     "personal": {
       "status": "completed",
-      "rating": 4,
+      "rating": 3,
       "affection": 3,
       "review": "真正的坏结局，反而是她们最后在一起了。"
     }
