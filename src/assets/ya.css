@@ -28,11 +28,6 @@ header {
   font-size: 14px;
 }
 
-header.isStuck {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-
 .header-inner {
   max-width: none;
   margin: 0;
@@ -1048,4 +1043,8 @@ footer a {
 footer a:hover {
   color: #3478bd;
   text-decoration: underline;
+}
+
+#app {
+  display: contents;
 }
