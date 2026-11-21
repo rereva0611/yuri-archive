@@ -16,7 +16,7 @@
 
 ## 技术
 
-- HTML / CSS / JavaScript
+- HTML / CSS / JavaScript / Vue 3
 - JSON / Markdown
 - GitHub Pages
 
